@@ -1,0 +1,112 @@
+# Terminalコマンド {#Terminal}
+
+以下のコマンドはmacOS Big Sur向けである。
+古いmacOSでも使えるものが多いが，細かい点が変わったりしている（bashがzshになるなど）。
+
+- ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。
+    + 単一ファイル
+```
+zip --delete filename.zip "*.DS_Store"
+zip --delete filename.zip "*__MACOSX*"
+```
+    + 複数ファイル
+```
+find . -name "*.zip" -exec zip --delete {} "*.DS_Store" \;
+find . -name "*.zip" -exec zip --delete {} "*__MACOSX*" \;
+```
+
+- 不可視ファイルを削除する。
+    + 「.DS_Store」を削除する。
+```
+sudo find ~/ -name ".DS_Store" -delete
+```
+        + ホームディレクトリのみ。
+```
+sudo find ~/ -name ".DS_Store" -delete
+```
+    + 「.Rapp.history」を削除する。
+```
+sudo find / -name ".Rapp.history" -delete
+```
+        + ホームディレクトリのみ。
+```
+sudo find ~/ -name ".Rapp.history" -delete
+```
+
+- ファイルの日付を変更する。
+```
+touch -t 202005182400 filename.jpg
+```
+
+- PATHを確認する。
+```
+printenv PATH
+```
+または
+```
+echo $PATH
+```
+
+- PATHを通す。
+.zshenv（または，~/.bash_profileなど）に
+```
+export PATH=$PATH:追加するPATH
+```
+という1行を追加する。
+追加するたびに1行追加していくのか，追加するPATHに「:」で追加していくのか，どちらが望ましいのかわからない。
+また，追加するのに，
+
+```
+vi ~/.zshenv
+
+```
+を使用しているが，これで合っているのか自信がない。
+最後に，
+```
+source ~/.zshenv
+```
+を実行する。
+
+- 環境変数を確認する。
+```
+export -p
+```
+
+- Macのモデルを確認する。
+```
+sysctl hw.model
+```
+
+- Macのアイコンをデスクトップにコピーする。
+```
+cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/
+```
+
+
+## macOSのコマンド以外のコマンド
+
+- Google Earth Studioから動画を作成する。
+```
+ffmpeg -r 30 -i Untitled_%03d.jpeg -vcodec libx264 -pix_fmt yuv420p -r 60 GoogleEarth.mp4
+```
+
+
+## 古いmacOS向けコマンド
+
+最新のmacOSでもコマンドが有効かどうかは確認していない。
+一部のコマンドは，最新のmacOSで確認して，機能しなかったことを確認している。
+
+- スタートアップチャイムを有効にする。
+```
+sudo nvram StartupMute=%00
+```
+
+- スタートアップチャイムを無効にする。
+```
+sudo nvram StartupMute=%01
+```
+
+- QuickLookで表示したテキストをコピー可能にする。
+```
+defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
+```

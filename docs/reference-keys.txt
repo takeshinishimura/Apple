@@ -1,10 +1,17 @@
 はじめに
+apple
+apple-サポート
+apple-developer
 InitialSetting
 システム環境設定
 finder環境設定
 テキストエディット環境設定
 safari環境設定
 メール環境設定
+メールよく使う項目に追加
+Terminal
+macosのコマンド以外のコマンド
+古いmacos向けコマンド
 mac-computers
 laptop
 list

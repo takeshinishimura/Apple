@@ -1,0 +1,14 @@
+# Apple
+
+# Apple サポート
+
+- [以前のバージョンの macOS を入手する](https://support.apple.com/ja-jp/HT211683)
+- [macOS の起動可能なインストーラを作成する方法](https://support.apple.com/ja-jp/HT201372)
+- [Mac notebooks：キー配置と機能](https://support.apple.com/ja-jp/HT3164)
+- [iPad や Mac ノートブックの電源アダプタで iPhone を充電する](https://support.apple.com/ja-jp/HT202105)
+- [Pages、Numbers、Keynote の計算の精度向上について](https://support.apple.com/ja-jp/HT210179)
+
+
+# Apple Developer
+
+- [Fonts for Apple Platforms](https://developer.apple.com/fonts/)
