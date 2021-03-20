@@ -19,13 +19,13 @@ find . -name "*.zip" -exec zip --delete {} "*__MACOSX*" \;
     + 「.DS_Store」を削除する。
 ```
 sudo find ~/ -name ".DS_Store" -delete
-# ホームディレクトリのみ。
+# ホームディレクトリのみ
 sudo find ~/ -name ".DS_Store" -delete
 ```
     + 「.Rapp.history」を削除する。
 ```
 sudo find / -name ".Rapp.history" -delete
-# ホームディレクトリのみ。
+# ホームディレクトリのみ
 sudo find ~/ -name ".Rapp.history" -delete
 ```
 
