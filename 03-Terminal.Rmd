@@ -18,7 +18,7 @@ find . -name "*.zip" -exec zip --delete {} "*__MACOSX*" \;
 - 不可視ファイルを削除する。
     + 「.DS_Store」を削除する。
 ```
-sudo find ~/ -name ".DS_Store" -delete
+sudo find / -name ".DS_Store" -delete
 # ホームディレクトリのみ
 sudo find ~/ -name ".DS_Store" -delete
 ```

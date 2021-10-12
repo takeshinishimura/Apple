@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>6 Terminalコマンド | Apple.knit</title>
+  <title>8.1 Laptop | Apple.knit</title>
   <meta name="description" content="" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="6 Terminalコマンド | Apple.knit" />
+  <meta property="og:title" content="8.1 Laptop | Apple.knit" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="6 Terminalコマンド | Apple.knit" />
+  <meta name="twitter:title" content="8.1 Laptop | Apple.knit" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="5.6-メールよく使う項目に追加.html"/>
-<link rel="next" href="6.1-macosのコマンド以外のコマンド.html"/>
+<link rel="prev" href="8-mac-computers.html"/>
+<link rel="next" href="8.2-desktop.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -121,78 +121,33 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="Terminal" class="section level1" number="6">
-<h1><span class="header-section-number">6</span> Terminalコマンド</h1>
-<p>以下のコマンドはmacOS Big Sur向けである。
-古いmacOSでも使えるものが多いが，細かい点が変わったりしている（bashがzshになるなど）。</p>
+<div id="laptop" class="section level2" number="8.1">
+<h2><span class="header-section-number">8.1</span> Laptop</h2>
 <ul>
-<li>ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。
+<li><a href="https://support.apple.com/kb/SP824">MacBook Pro (13-inch, M1, 2020)</a> &lt;- macOS Big Sur</li>
+<li><a href="https://support.apple.com/kb/SP755">MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)</a> &lt;- macOS Big Sur</li>
+<li><a href="https://support.apple.com/kb/SP713">MacBook Air (11-inch, Early 2015)</a> &lt;- macOS Big Sur</li>
+<li><a href="https://support.apple.com/kb/SP691">MacBook Pro (Retina, 13-inch, Late 2013)</a> &lt;- macOS Mojave</li>
+<li><a href="https://support.apple.com/kb/SP670">MacBook Air (13-inch, Mid 2012)</a> &lt;- macOS Catalina</li>
+<li><a href="https://support.apple.com/kb/SP645">MacBook Pro (13-inch, Late 2011)</a> &lt;- macOS Mojave</li>
+<li><a href="https://support.apple.com/kb/SP541">MacBook Pro (13-inch, Mid 2009)</a> &lt;- OS X El Capitan</li>
+<li>iBook (FireWire SE) &lt;- Mac OS X 10.3 (Panther)</li>
+</ul>
+<div id="list" class="section level3" number="8.1.1">
+<h3><span class="header-section-number">8.1.1</span> List</h3>
 <ul>
-<li>単一ファイル</li>
+<li><a href="https://support.apple.com/en-us/HT201300">Identify your MacBook Pro model</a></li>
+<li><a href="https://support.apple.com/en-us/HT201862">Identify your MacBook Air model</a></li>
 </ul>
-<pre><code>zip --delete filename.zip &quot;*.DS_Store&quot;
-zip --delete filename.zip &quot;*__MACOSX*&quot;</code></pre>
-<ul>
-<li>複数ファイル</li>
-</ul>
-<pre><code>find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*.DS_Store&quot; \;
-find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*__MACOSX*&quot; \;</code></pre></li>
-<li>不可視ファイルを削除する。
-<ul>
-<li>「.DS_Store」を削除する。</li>
-</ul>
-<pre><code>sudo find / -name &quot;.DS_Store&quot; -delete
-# ホームディレクトリのみ
-sudo find ~/ -name &quot;.DS_Store&quot; -delete</code></pre>
-<ul>
-<li>「.Rapp.history」を削除する。</li>
-</ul>
-<pre><code>sudo find / -name &quot;.Rapp.history&quot; -delete
-# ホームディレクトリのみ
-sudo find ~/ -name &quot;.Rapp.history&quot; -delete</code></pre></li>
-<li>ファイルの日付を変更する。</li>
-</ul>
-<pre><code>touch -t 202005182400 filename.jpg</code></pre>
-<ul>
-<li>PATHを確認する。</li>
-</ul>
-<pre><code>printenv PATH</code></pre>
-<p>または</p>
-<pre><code>echo $PATH</code></pre>
-<ul>
-<li>PATHを通す。
-.zshenv（または，~/.bash_profileなど）に</li>
-</ul>
-<pre><code>export PATH=$PATH:追加するPATH</code></pre>
-<p>という1行を追加する。
-追加するたびに1行追加していくのか，追加するPATHに「:」で追加していくのか，どちらが望ましいのかわからない。
-また，追加するのに，</p>
-<pre><code>vi ~/.zshenv
-</code></pre>
-<p>を使用しているが，これで合っているのか自信がない。
-最後に，</p>
-<pre><code>source ~/.zshenv</code></pre>
-<p>を実行する。</p>
-<ul>
-<li>環境変数を確認する。</li>
-</ul>
-<pre><code>export -p</code></pre>
-<ul>
-<li>Macのモデルを確認する。</li>
-</ul>
-<pre><code>sysctl hw.model</code></pre>
-<ul>
-<li>Macのアイコンをデスクトップにコピーする。</li>
-</ul>
-<pre><code>cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/</code></pre>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="5.6-メールよく使う項目に追加.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="6.1-macosのコマンド以外のコマンド.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="8-mac-computers.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="8.2-desktop.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

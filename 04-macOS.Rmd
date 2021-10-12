@@ -1,0 +1,35 @@
+# macOS
+
+macOSの種類。
+
+- macOS Catalinaのメディアファイルの場所
+- macOS Catalinaのメディアファイルの場所
+- macOS Catalinaのメディアファイルの場所
+- macOS Catalinaのメディアファイルの場所
+- macOS Catalinaのメディアファイルの場所
+- macOS Catalinaのメディアファイルの場所
+- macOS Catalinaのメディアファイルの場所
+
+基本的に，OSのアップグレード時には，クリーンインストールしていた。
+最近のmacOSは，移行すべきファイルの場所がどこにあるのかがわかりにくく，また，適切にコピーしてもアプリケーションの初回起動時にリセットされるファイルもあることから，今後は，クリーンインストールしない方がいいかもしれない。
+
+- macOS Catalinaのメディアファイルの場所
+    + Music and Music videos: 
+```
+~/Music
+```
+    + TV shows and movies: 
+```
+~/Movies
+```
+    + Podcasts: 
+```
+~/Library/Group Containers/243LU875E5.groups.com.apple.podcasts
+```
+    + Books: 
+```
+~/Library/Containers/com.apple.BKAgentService/Data/Documents/iBooks/Books
+```
+
+ファイルをコピーしただけだと，Music Library.musiclibraryを読み込まないため，Music.appの初回起動時にoptionを押しながら起動することで，Music Library.musiclibraryを選択する必要がある。
+

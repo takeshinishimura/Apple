@@ -12,6 +12,7 @@ safari環境設定
 Terminal
 macosのコマンド以外のコマンド
 古いmacos向けコマンド
+macos
 mac-computers
 laptop
 list

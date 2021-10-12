@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>6 Terminalコマンド | Apple.knit</title>
+  <title>3 Apple サポート | Apple.knit</title>
   <meta name="description" content="" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="6 Terminalコマンド | Apple.knit" />
+  <meta property="og:title" content="3 Apple サポート | Apple.knit" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="6 Terminalコマンド | Apple.knit" />
+  <meta name="twitter:title" content="3 Apple サポート | Apple.knit" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="5.6-メールよく使う項目に追加.html"/>
-<link rel="next" href="6.1-macosのコマンド以外のコマンド.html"/>
+<link rel="prev" href="2-apple.html"/>
+<link rel="next" href="4-apple-developer.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -121,78 +121,23 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="Terminal" class="section level1" number="6">
-<h1><span class="header-section-number">6</span> Terminalコマンド</h1>
-<p>以下のコマンドはmacOS Big Sur向けである。
-古いmacOSでも使えるものが多いが，細かい点が変わったりしている（bashがzshになるなど）。</p>
+<div id="apple-サポート" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Apple サポート</h1>
 <ul>
-<li>ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。
-<ul>
-<li>単一ファイル</li>
+<li><a href="https://support.apple.com/ja-jp/HT211683">以前のバージョンの macOS を入手する</a></li>
+<li><a href="https://support.apple.com/ja-jp/HT201372">macOS の起動可能なインストーラを作成する方法</a></li>
+<li><a href="https://support.apple.com/ja-jp/HT3164">Mac notebooks：キー配置と機能</a></li>
+<li><a href="https://support.apple.com/ja-jp/HT202105">iPad や Mac ノートブックの電源アダプタで iPhone を充電する</a></li>
+<li><a href="https://support.apple.com/ja-jp/HT210179">Pages、Numbers、Keynote の計算の精度向上について</a></li>
 </ul>
-<pre><code>zip --delete filename.zip &quot;*.DS_Store&quot;
-zip --delete filename.zip &quot;*__MACOSX*&quot;</code></pre>
-<ul>
-<li>複数ファイル</li>
-</ul>
-<pre><code>find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*.DS_Store&quot; \;
-find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*__MACOSX*&quot; \;</code></pre></li>
-<li>不可視ファイルを削除する。
-<ul>
-<li>「.DS_Store」を削除する。</li>
-</ul>
-<pre><code>sudo find / -name &quot;.DS_Store&quot; -delete
-# ホームディレクトリのみ
-sudo find ~/ -name &quot;.DS_Store&quot; -delete</code></pre>
-<ul>
-<li>「.Rapp.history」を削除する。</li>
-</ul>
-<pre><code>sudo find / -name &quot;.Rapp.history&quot; -delete
-# ホームディレクトリのみ
-sudo find ~/ -name &quot;.Rapp.history&quot; -delete</code></pre></li>
-<li>ファイルの日付を変更する。</li>
-</ul>
-<pre><code>touch -t 202005182400 filename.jpg</code></pre>
-<ul>
-<li>PATHを確認する。</li>
-</ul>
-<pre><code>printenv PATH</code></pre>
-<p>または</p>
-<pre><code>echo $PATH</code></pre>
-<ul>
-<li>PATHを通す。
-.zshenv（または，~/.bash_profileなど）に</li>
-</ul>
-<pre><code>export PATH=$PATH:追加するPATH</code></pre>
-<p>という1行を追加する。
-追加するたびに1行追加していくのか，追加するPATHに「:」で追加していくのか，どちらが望ましいのかわからない。
-また，追加するのに，</p>
-<pre><code>vi ~/.zshenv
-</code></pre>
-<p>を使用しているが，これで合っているのか自信がない。
-最後に，</p>
-<pre><code>source ~/.zshenv</code></pre>
-<p>を実行する。</p>
-<ul>
-<li>環境変数を確認する。</li>
-</ul>
-<pre><code>export -p</code></pre>
-<ul>
-<li>Macのモデルを確認する。</li>
-</ul>
-<pre><code>sysctl hw.model</code></pre>
-<ul>
-<li>Macのアイコンをデスクトップにコピーする。</li>
-</ul>
-<pre><code>cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/</code></pre>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="5.6-メールよく使う項目に追加.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="6.1-macosのコマンド以外のコマンド.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="2-apple.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="4-apple-developer.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
