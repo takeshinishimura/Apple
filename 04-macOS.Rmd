@@ -2,13 +2,7 @@
 
 macOSの種類。
 
-- macOS Catalinaのメディアファイルの場所
-- macOS Catalinaのメディアファイルの場所
-- macOS Catalinaのメディアファイルの場所
-- macOS Catalinaのメディアファイルの場所
-- macOS Catalinaのメディアファイルの場所
-- macOS Catalinaのメディアファイルの場所
-- macOS Catalinaのメディアファイルの場所
+- [Mac に搭載されている macOS を調べる - Apple サポート (日本)](https://support.apple.com/ja-jp/HT201260)
 
 基本的に，OSのアップグレード時には，クリーンインストールしていた。
 最近のmacOSは，移行すべきファイルの場所がどこにあるのかがわかりにくく，また，適切にコピーしてもアプリケーションの初回起動時にリセットされるファイルもあることから，今後は，クリーンインストールしない方がいいかもしれない。

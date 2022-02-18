@@ -13,6 +13,8 @@ Terminal
 macosのコマンド以外のコマンド
 古いmacos向けコマンド
 macos
+windows-on-mac
+windows-11
 mac-computers
 laptop
 list

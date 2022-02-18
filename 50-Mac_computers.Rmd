@@ -1,0 +1,21 @@
+# Mac computers
+
+## Laptop
+
+- [MacBook Pro (13-inch, M1, 2020)](https://support.apple.com/kb/SP824) <- macOS Monterey
+- [MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)](https://support.apple.com/kb/SP755) <- macOS Monterey- [MacBook Air (11-inch, Early 2015)](https://support.apple.com/kb/SP713) <- macOS Monterey- [MacBook Pro (Retina, 13-inch, Late 2013)](https://support.apple.com/kb/SP691) <- macOS Big Sur- [MacBook Air (13-inch, Mid 2012)](https://support.apple.com/kb/SP670) <- macOS Catalina- [MacBook Pro (13-inch, Late 2011)](https://support.apple.com/kb/SP645) <- macOS Mojave- [MacBook Pro (13-inch, Mid 2009)](https://support.apple.com/kb/SP541) <- OS X El Capitan- iBook (FireWire SE) <- Mac OS X 10.3 (Panther)
+
+### List
+
+- [Identify your MacBook Pro model](https://support.apple.com/en-us/HT201300)
+- [Identify your MacBook Air model](https://support.apple.com/en-us/HT201862)
+
+
+## Desktop
+
+- [Mac Pro (Late 2013)](https://support.apple.com/kb/SP697) <- macOS Monterey- [Mac mini (Late 2012)](https://support.apple.com/kb/SP659) <- macOS Catalina / Windows 10- [iMac (20-inch, Early 2006)](https://www.apple.com/jp/support/datasheet/imac/imac_710_590_589.html) <- Mac OS X 10.6 (Snow Leopard)- [Mac mini (Early 2005)](https://www.apple.com/jp/support/datasheet/desktop/macmini_9686879971.html) <- Mac OS X 10.4 (Tiger)
+
+### List
+
+- [Identify your Mac Pro model](https://support.apple.com/en-us/HT202888)
+- [Identify your iMac model](https://support.apple.com/en-us/HT201634)- [Identify your Mac mini model](https://support.apple.com/en-us/HT201894)

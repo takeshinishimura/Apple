@@ -1,7 +1,7 @@
 # Terminalコマンド {#Terminal}
 
-以下のコマンドはmacOS Big Sur向けである。
-古いmacOSでも使えるものが多いが，細かい点が変わったりしている（bashがzshになるなど）。
+以下のコマンドはmacOS Monterey向けである。
+古いmacOSでも使えるものが多いが，細かい点が変わったりしている（デフォルトがbashからzshに変わった）。
 
 - ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。
     + 単一ファイル
@@ -90,7 +90,7 @@ ffmpeg -r 30 -i Untitled_%03d.jpeg -vcodec libx264 -pix_fmt yuv420p -r 60 Google
 ## 古いmacOS向けコマンド
 
 最新のmacOSでもコマンドが有効かどうかは確認していない。
-一部のコマンドは，最新のmacOSで確認して，機能しなかったことを確認している。
+一部のコマンドは，最新のmacOSで機能しなかったことを確認している。
 
 - スタートアップチャイムを有効にする。
 ```
