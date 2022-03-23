@@ -4,12 +4,14 @@
 Intelではなく，Apple siliconであることを想定している（一部異なる）。
 
 以下のいずれかでインストールする。
-インストールと[TeXShop](https://pages.uoregon.edu/koch/texshop/)の初期設定は前者の方が楽だが，後者の方がインストール後に苦労しない。
+インストールと[TeXShop](https://pages.uoregon.edu/koch/texshop/)の初期設定は1の方が楽だが，2の方がインストール後に苦労しない。
 
 困ったことがあっても基本的に誰も助けてくれない。
-TeXユーザーはわかっていない人が何がわかっていないのかがわからない。
+TeXユーザーはわからない人が何がわからないのかがわからない。
 わからない人は何がわからないのかを説明できない。
 すなわち，地獄。
+
+知る限り，[MacTeX をおすすめできる場合とそうでない場合（私見）](https://blog.wtsnjp.com/2020/07/07/about-mactex/) が最も親切な説明。
 
 1. [MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，TeXLive-2021のみをインストールする。Ghostscriptはインストールしない方がよい。
 

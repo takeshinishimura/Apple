@@ -19,6 +19,7 @@
   + [Mathpix Snip](https://mathpix.com/)
   + 
 - 仕事
+  + 
   + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
   + [TeX2img](https://tex2img.tech/)
   + [R](https://cran.r-project.org/)
@@ -80,12 +81,12 @@
 - 昔使っていたが，今は使っていない
   + [Intego NetBarrier X5](https://www.intego.com/)
   + [egbridge Universal](http://www.ergo.co.jp/products/egb17/)
+  + [Papers](http://www.mekentosj.com/papers/)
+  + [英辞郎ビューア](http://numata.designed.jp/ja/software/eview.html)
   + [FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)
   + [CCleaner](http://www.piriform.com/ccleaner)
-  + [Papers](http://www.mekentosj.com/papers/)
   + [Jedit X Rev.2](http://www.artman21.com/jp/jedit_x/)
   + [Chocolat](http://chocolatapp.com)
-  + [英辞郎ビューア](http://numata.designed.jp/ja/software/eview.html)
   + [Caffeine](https://itunes.apple.com/jp/app/caffeine/id411246225?mt=12)
   + [ATOK Pad](https://itunes.apple.com/jp/app/atok-pad/id460883588?mt=12)
   + [Skitch](https://itunes.apple.com/jp/app/skitch/id425955336?mt=12)
