@@ -1,0 +1,54 @@
+# LaTeX {#LaTeX}
+
+[macOS Monterey](https://www.apple.com/jp/macos/monterey/) で [TeX Live](https://www.tug.org/texlive/) を使う方法。
+Intelではなく，Apple siliconであることを想定している（一部異なる）。
+
+以下のいずれかでインストールする。
+インストールと[TeXShop](https://pages.uoregon.edu/koch/texshop/)の初期設定は前者の方が楽だが，後者の方がインストール後に苦労しない。
+
+困ったことがあっても基本的に誰も助けてくれない。
+TeXユーザーはわかっていない人が何がわかっていないのかがわからない。
+わからない人は何がわからないのかを説明できない。
+すなわち，地獄。
+
+1. [MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，TeXLive-2021のみをインストールする。Ghostscriptはインストールしない方がよい。
+
+1. [Installing TeX Live over the Internet](https://www.tug.org/texlive/acquire-netinstall.html) から，
+install-tl-unx.tar.gz をダウンロードして，インストールする。
+```
+$ tar xvzf install-tl-unx.tar.gz
+$ cd ./install-tl-20220322
+$ sudo ./install-tl --no-gui
+$ sudo /usr/local/texlive/2021/bin/universal-darwin/tlmgr path add
+$ sudo tlmgr update --self --all
+$ kanji-config-updmap-sys status # フォントを確認
+$ sudo kanji-config-updmap-sys auto # morisawa になった
+$ sudo tlmgr repository add http://contrib.texlive.info/current tlcontrib
+$ sudo tlmgr pinning add tlcontrib '*'
+$ sudo tlmgr install japanese-otf-nonfree japanese-otf-uptex-nonfree ptex-fontmaps-macos cjk-gs-integrate-macos
+$ sudo cjk-gs-integrate --link-texmf --cleanup
+```
+[cjk-gs-integrate-macos.pl](https://raw.githubusercontent.com/texjporg/cjk-gs-support/master/cjk-gs-integrate-macos.pl) をダウンロードする。
+```
+$ sudo perl cjk-gs-integrate-macos.pl --link-texmf
+$ sudo kanji-config-updmap-sys --jis2004 hiragino-highsierra-pron
+$ kanji-config-updmap-sys status # hiragino-highsierra-pron になった
+```
+なぜヒラギノを埋め込むのかは聞いてはいけない。
+
+一応，確認してみる（気休め）。
+```
+$ kpsewhich -var-value TEXMF
+$ cat /usr/local/texlive/2021/texmf.cnf
+```
+
+最近は，sudo mktexlsr は必要ないっぽい（「っぽい」の正確性を確認しようとすることは地獄への誘い。やめておく）。
+
+1. Homebrewを使って，Ghostscriptをインストールする。
+```
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ cd /opt
+$ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+$ export PATH=$PATH:/opt/homebrew/bin
+$ brew install ghostscript
+```

@@ -1,0 +1,98 @@
+# Software {#Software}
+
+まだ整理していません。
+
+- ないと困る
+  + [Dropbox](https://www.dropbox.com/)
+  + [Little Snitch](https://www.obdev.at/products/littlesnitch/)
+  +
+- ないと少し困る
+  + [Bartender](https://www.macbartender.com/)
+  + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834?mt=12)
+  +
+- 入力支援
+  + [PopClip](https://pilotmoon.com/popclip/)
+  + [PopClip Extensions](http://pilotmoon.com/popclip/extensions/)
+  + [PopMaker](https://brettterpstra.com/2014/05/12/popmaker-popclip-extension-generator/)
+  + [TextExpander](https://textexpander.com/)
+  + [ATOK](https://atok.com/)
+  + [Mathpix Snip](https://mathpix.com/)
+  + 
+- 仕事
+  + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
+  + [TeX2img](https://tex2img.tech/)
+  + [R](https://cran.r-project.org/)
+  + [RStudio](https://www.rstudio.com/)
+  + [Visual Studio Code](https://code.visualstudio.com/)
+  + [Jedit Ω](http://www.artman21.com/jp/jeditOmega/)
+  + 
+  + [EBMac](http://www31.ocn.ne.jp/~h_ishida/MacOS/Mac.html)
+  + 
+  + [Scrivener](https://itunes.apple.com/jp/app/scrivener/id418889511?mt=12)
+  + [OmniFocus](https://itunes.apple.com/jp/app/omnifocus/id402835630?mt=12)
+
+- プレゼンテーション
+  + [SlidePilot](https://slidepilotapp.com/en/)
+  + [mmhmm](https://www.mmhmm.app/)
+  + [OBS Studio](https://obsproject.com/)
+  + [Vrew](https://vrew.voyagerx.com/ja/)
+  + 
+  + 
+- 
+  + [OmniGraffle](https://www.omnigroup.com/omnigraffle)
+  + [OmniOutliner](https://www.omnigroup.com/omnioutliner)
+  + 
+  + 
+- リモートコントロール
+  + [TeamViewer](https://www.teamviewer.com/ja/)
+  + 
+  + 
+  + [Air Display](http://avatron.com/apps/air-display)
+  + [Air Connect](http://avatron.com/apps/air-login) + [Air Login](https://itunes.apple.com/jp/app/air-login/id465539198?mt=8)
+  + [Splashtop 2](https://itunes.apple.com/jp/app/splashtop-2-remote-desktop/id562828328?mt=12) + [Splashtop Streamer](http://www.splashtop.com/ja/home)
+
+- マルチメディア
+  + [VLC media player](https://www.videolan.org/vlc/)
+  + [HandBrake](https://handbrake.fr/)
+  + [lossless-cut](https://github.com/mifi/lossless-cut)
+  + [Audacity](https://www.audacityteam.org/)
+  + [Luna Display](https://astropad.com/product/lunadisplay/)
+  + [Duet Display](https://ja.duetdisplay.com/)
+  + 
+  + 
+  + 
+  + 
+  + 
+- 
+  + [VMware Fusion](http://www.vmware.com/products/fusion/overview.html)
+  + [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
+  + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
+  + [HoudahGPS](https://www.houdah.com/houdahGPS/)
+  + [Docker](https://www.docker.com/)
+  + [Transmit](https://panic.com/transmit/)
+  + [Mounty for NTFS](https://mounty.app/)
+  + 
+  + 
+  + 
+  + 
+
+
+- 昔使っていたが，今は使っていない
+  + [Intego NetBarrier X5](https://www.intego.com/)
+  + [egbridge Universal](http://www.ergo.co.jp/products/egb17/)
+  + [FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)
+  + [CCleaner](http://www.piriform.com/ccleaner)
+  + [Papers](http://www.mekentosj.com/papers/)
+  + [Jedit X Rev.2](http://www.artman21.com/jp/jedit_x/)
+  + [Chocolat](http://chocolatapp.com)
+  + [英辞郎ビューア](http://numata.designed.jp/ja/software/eview.html)
+  + [Caffeine](https://itunes.apple.com/jp/app/caffeine/id411246225?mt=12)
+  + [ATOK Pad](https://itunes.apple.com/jp/app/atok-pad/id460883588?mt=12)
+  + [Skitch](https://itunes.apple.com/jp/app/skitch/id425955336?mt=12)
+  + [RealPlayer SP](http://jp.real.com/?mode=rp_mac)
+  + [Flip4Mac](http://www.telestream.net/flip4mac/overview.htm)
+  + [Delicious Library](https://itunes.apple.com/jp/app/delicious-library-2/id403067185?mt=12)
+  + [Paparazzi!](http://derailer.org/paparazzi/)
+  + [Pocket](https://itunes.apple.com/jp/app/pocket/id568494494?mt=12)
+  + [Picturesque](https://itunes.apple.com/jp/app/picturesque/id476511387?mt=12)
+  + [ColorSelector](http://jp.fujitsu.com/about/design/ud/assistance/colorselector/)

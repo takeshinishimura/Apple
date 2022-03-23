@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Page not found | Apple.knit</title>
+  <title>7 LaTeX | Apple.knit</title>
   <meta name="description" content="" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Page not found | Apple.knit" />
+  <meta property="og:title" content="7 LaTeX | Apple.knit" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Page not found | Apple.knit" />
+  <meta name="twitter:title" content="7 LaTeX | Apple.knit" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-
+<link rel="prev" href="6-Software.html"/>
+<link rel="next" href="8-windows-on-mac.html"/>
 <script src="libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -137,19 +137,58 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="page-not-found" class="section level1">
-<h1>Page not found</h1>
-<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
-<p>You may want to try searching to find the page's new location, or use
-the table of contents to find the page you are looking for.</p>
+<div id="LaTeX" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">7</span> LaTeX<a href="7-LaTeX.html#LaTeX" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><a href="https://www.apple.com/jp/macos/monterey/">macOS Monterey</a> で <a href="https://www.tug.org/texlive/">TeX Live</a> を使う方法。
+Intelではなく，Apple siliconであることを想定している（一部異なる）。</p>
+<p>以下のいずれかでインストールする。
+インストールと<a href="https://pages.uoregon.edu/koch/texshop/">TeXShop</a>の初期設定は前者の方が楽だが，後者の方がインストール後に苦労しない。</p>
+<p>困ったことがあっても基本的に誰も助けてくれない。
+TeXユーザーはわかっていない人が何がわかっていないのかがわからない。
+わからない人は何がわからないのかを説明できない。
+すなわち，地獄。</p>
+<ol style="list-style-type: decimal">
+<li><p><a href="https://www.tug.org/mactex/">MacTeX</a> のインストーラーを使って，TeXLive-2021のみをインストールする。Ghostscriptはインストールしない方がよい。</p></li>
+<li><p><a href="https://www.tug.org/texlive/acquire-netinstall.html">Installing TeX Live over the Internet</a> から，
+install-tl-unx.tar.gz をダウンロードして，インストールする。</p></li>
+</ol>
+<pre><code>$ tar xvzf install-tl-unx.tar.gz
+$ cd ./install-tl-20220322
+$ sudo ./install-tl --no-gui
+$ sudo /usr/local/texlive/2021/bin/universal-darwin/tlmgr path add
+$ sudo tlmgr update --self --all
+$ kanji-config-updmap-sys status # フォントを確認
+$ sudo kanji-config-updmap-sys auto # morisawa になった
+$ sudo tlmgr repository add http://contrib.texlive.info/current tlcontrib
+$ sudo tlmgr pinning add tlcontrib &#39;*&#39;
+$ sudo tlmgr install japanese-otf-nonfree japanese-otf-uptex-nonfree ptex-fontmaps-macos cjk-gs-integrate-macos
+$ sudo cjk-gs-integrate --link-texmf --cleanup</code></pre>
+<p><a href="https://raw.githubusercontent.com/texjporg/cjk-gs-support/master/cjk-gs-integrate-macos.pl">cjk-gs-integrate-macos.pl</a> をダウンロードする。</p>
+<pre><code>$ sudo perl cjk-gs-integrate-macos.pl --link-texmf
+$ sudo kanji-config-updmap-sys --jis2004 hiragino-highsierra-pron
+$ kanji-config-updmap-sys status # hiragino-highsierra-pron になった</code></pre>
+<p>なぜヒラギノを埋め込むのかは聞いてはいけない。</p>
+<p>一応，確認してみる（気休め）。</p>
+<pre><code>$ kpsewhich -var-value TEXMF
+$ cat /usr/local/texlive/2021/texmf.cnf</code></pre>
+<p>最近は，sudo mktexlsr は必要ないっぽい（「っぽい」の正確性を確認しようとすることは地獄への誘い。やめておく）。</p>
+<ol style="list-style-type: decimal">
+<li>Homebrewを使って，Ghostscriptをインストールする。</li>
+</ol>
+<pre><code>$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+$ cd /opt
+$ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+$ export PATH=$PATH:/opt/homebrew/bin
+$ brew install ghostscript</code></pre>
+
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-
+<a href="6-Software.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="8-windows-on-mac.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

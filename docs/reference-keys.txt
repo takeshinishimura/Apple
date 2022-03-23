@@ -2,6 +2,10 @@
 apple
 apple-サポート
 apple-developer
+appleのフォント
+googleのフォント
+en-dash-とem-dash-の入力方法
+隠しファイルを表示する
 InitialSetting
 システム環境設定
 finder環境設定
@@ -9,10 +13,13 @@ finder環境設定
 safari環境設定
 メール環境設定
 メールよく使う項目に追加
+dockに追加
 Terminal
 macosのコマンド以外のコマンド
 古いmacos向けコマンド
 macos
+Software
+LaTeX
 windows-on-mac
 windows-11
 mac-computers

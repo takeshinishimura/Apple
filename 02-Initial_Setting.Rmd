@@ -95,3 +95,16 @@ charset
 - 「すべてのゴミ箱」
 - 「すべての迷惑メール」
 - 「表示」→「お気に入りバーを表示」をオンにする。
+
+
+## Dockに追加
+
+- ターミナル.app
+- アクティビティモニタ.app
+- テキストエディット.app
+- プレビュー.app
+- 辞書.app
+- ホーム.app
+- ブック.app
+- News.app
+- /System/Library/CoreServices/Applications/DVD プレイヤー.app

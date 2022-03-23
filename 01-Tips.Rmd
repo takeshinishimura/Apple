@@ -1,6 +1,6 @@
 # Apple
 
-# Apple サポート
+## Apple サポート
 
 - [以前のバージョンの macOS を入手する](https://support.apple.com/ja-jp/HT211683)
 - [macOS の起動可能なインストーラを作成する方法](https://support.apple.com/ja-jp/HT201372)
@@ -9,6 +9,39 @@
 - [Pages、Numbers、Keynote の計算の精度向上について](https://support.apple.com/ja-jp/HT210179)
 
 
-# Apple Developer
+## Apple Developer
 
 - [Fonts for Apple Platforms](https://developer.apple.com/fonts/)
+
+
+## Appleのフォント
+
+- Apple Garamond
+- Myriad
+
+[Apple製品のロゴのフォントはMyriad（ミリアド）](http://gajetdaisuke.com/archives/08126_011939.php "http://gajetdaisuke.com/archives/08126_011939.php")
+
+
+### Googleのフォント
+
+- Catull
+
+[Google社ロゴはどう作られたか](http://wiredvision.jp/news/200803/2008033123.html "http://wiredvision.jp/news/200803/2008033123.html")
+
+
+## en dash (–)とem dash (—)の入力方法
+
+macOS
+
+- en dash: ⌥ + -
+- em dash: ⌥ + ⇧ + -
+
+Windows
+
+- en dash: Alt + 0150 or Ctrl + テンキーの-
+- em dash: Alt + 0151 or Ctrl + Alt + テンキーの-
+
+
+## 隠しファイルを表示する
+
+- ⌘ + ⇧ + .
