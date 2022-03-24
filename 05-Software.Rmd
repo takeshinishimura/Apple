@@ -19,7 +19,15 @@
   + [Mathpix Snip](https://mathpix.com/)
   + 
 - 仕事
-  + 
+  + [Zotero](https://www.zotero.org/)
+    - [Papers](http://www.mekentosj.com/papers/)の代わりとして使い始めた。
+    - Source Folder for Attaching New Files: ~/Dropbox/Zotero
+    - Location of Files: ~/Dropbox/Zotero
+    - Use subfolder defined by "/%T/%w/%y"
+    - Renaming Format: Format for all Types except Patents: "{%a }{(%y) }{%t}"
+    - Add suffix when authors are omitted " et al."
+    - 
+    - 
   + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
   + [TeX2img](https://tex2img.tech/)
   + [R](https://cran.r-project.org/)

@@ -22,7 +22,7 @@ Software
 LaTeX
 windows-on-mac
 windows-11
-mac-computers
+Mac
 laptop
 list
 desktop

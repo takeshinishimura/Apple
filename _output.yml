@@ -1,5 +1,5 @@
 bookdown::gitbook:
-  split_by: section+number
+  split_by: chapter+number
   config:
     toolbar:
       position: static
