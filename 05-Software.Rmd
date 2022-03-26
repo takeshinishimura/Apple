@@ -2,23 +2,21 @@
 
 まだ整理していません。
 
+## Software
+
 - ないと困る
   + [Dropbox](https://www.dropbox.com/)
   + [Little Snitch](https://www.obdev.at/products/littlesnitch/)
-  +
-- ないと少し困る
-  + [Bartender](https://www.macbartender.com/)
-  + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834?mt=12)
-  +
-- 入力支援
-  + [PopClip](https://pilotmoon.com/popclip/)
-  + [PopClip Extensions](http://pilotmoon.com/popclip/extensions/)
-  + [PopMaker](https://brettterpstra.com/2014/05/12/popmaker-popclip-extension-generator/)
-  + [TextExpander](https://textexpander.com/)
   + [ATOK](https://atok.com/)
-  + [Mathpix Snip](https://mathpix.com/)
-  + 
-- 仕事
+  + [PopClip](https://pilotmoon.com/popclip/)
+    - [PopClip Extensions](http://pilotmoon.com/popclip/extensions/)
+    - [PopMaker](https://brettterpstra.com/2014/05/12/popmaker-popclip-extension-generator/)
+  + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704?mt=12)
+  + [TeX Live](https://www.tug.org/texlive/)
+  + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
+  + [Homebrew](https://brew.sh/)
+  + [R](https://cran.r-project.org/)
+  + [RStudio](https://www.rstudio.com/)
   + [Zotero](https://www.zotero.org/)
     - [Papers](http://www.mekentosj.com/papers/)の代わりとして使い始めた。
     - Source Folder for Attaching New Files: ~/Dropbox/Zotero
@@ -26,72 +24,44 @@
     - Use subfolder defined by "/%T/%w/%y"
     - Renaming Format: Format for all Types except Patents: "{%a }{(%y) }{%t}"
     - Add suffix when authors are omitted " et al."
-    - 
-    - 
-  + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
-  + [TeX2img](https://tex2img.tech/)
-  + [R](https://cran.r-project.org/)
-  + [RStudio](https://www.rstudio.com/)
-  + [Visual Studio Code](https://code.visualstudio.com/)
-  + [Jedit Ω](http://www.artman21.com/jp/jeditOmega/)
-  + 
-  + [EBMac](http://www31.ocn.ne.jp/~h_ishida/MacOS/Mac.html)
-  + 
   + [Scrivener](https://itunes.apple.com/jp/app/scrivener/id418889511?mt=12)
+  + [Scapple](https://apps.apple.com/jp/app/scapple/id568020055?mt=12)
+  + [Jedit Ω](http://www.artman21.com/jp/jeditOmega/)
   + [OmniFocus](https://itunes.apple.com/jp/app/omnifocus/id402835630?mt=12)
-
-- プレゼンテーション
-  + [SlidePilot](https://slidepilotapp.com/en/)
-  + [mmhmm](https://www.mmhmm.app/)
-  + [OBS Studio](https://obsproject.com/)
-  + [Vrew](https://vrew.voyagerx.com/ja/)
-  + 
-  + 
-- 
   + [OmniGraffle](https://www.omnigroup.com/omnigraffle)
   + [OmniOutliner](https://www.omnigroup.com/omnioutliner)
-  + 
-  + 
-- リモートコントロール
+  + [SlidePilot](https://slidepilotapp.com/en/)
+  + [OBS Studio](https://obsproject.com/)
+  + [VMware Fusion](http://www.vmware.com/products/fusion/overview.html)
+  + [HoudahGPS](https://www.houdah.com/houdahGPS/)
+  + [Google Chrome](https://www.google.com/intl/ja_jp/chrome/)
+  + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
+- ないと少し困る
+  + [TextExpander](https://textexpander.com/)
+  + [Bartender](https://www.macbartender.com/)
+  + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834?mt=12)
   + [TeamViewer](https://www.teamviewer.com/ja/)
-  + 
-  + 
-  + [Air Display](http://avatron.com/apps/air-display)
-  + [Air Connect](http://avatron.com/apps/air-login) + [Air Login](https://itunes.apple.com/jp/app/air-login/id465539198?mt=8)
-  + [Splashtop 2](https://itunes.apple.com/jp/app/splashtop-2-remote-desktop/id562828328?mt=12) + [Splashtop Streamer](http://www.splashtop.com/ja/home)
-
-- マルチメディア
+  + [Transmit](https://panic.com/transmit/)
+  + [EBMac](http://www31.ocn.ne.jp/~h_ishida/MacOS/Mac.html)
+  + [Luna Display](https://astropad.com/product/lunadisplay/)
+  + [Duet Display](https://ja.duetdisplay.com/)
+  + [Visual Studio Code](https://code.visualstudio.com/)
   + [VLC media player](https://www.videolan.org/vlc/)
   + [HandBrake](https://handbrake.fr/)
   + [lossless-cut](https://github.com/mifi/lossless-cut)
   + [Audacity](https://www.audacityteam.org/)
-  + [Luna Display](https://astropad.com/product/lunadisplay/)
-  + [Duet Display](https://ja.duetdisplay.com/)
-  + 
-  + 
-  + 
-  + 
-  + 
-- 
-  + [VMware Fusion](http://www.vmware.com/products/fusion/overview.html)
-  + [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
-  + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
-  + [HoudahGPS](https://www.houdah.com/houdahGPS/)
-  + [Docker](https://www.docker.com/)
-  + [Transmit](https://panic.com/transmit/)
-  + [Mounty for NTFS](https://mounty.app/)
-  + 
-  + 
-  + 
-  + 
-
-
-- 昔使っていたが，今は使っていない
+  + [mmhmm](https://www.mmhmm.app/)
+  + [Vrew](https://vrew.voyagerx.com/ja/)
+  + [FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)
+- 別になくても大丈夫（昔はないと困っていたが，今は困らない）
+  + [Papers](http://www.mekentosj.com/papers/)
   + [Intego NetBarrier X5](https://www.intego.com/)
   + [egbridge Universal](http://www.ergo.co.jp/products/egb17/)
-  + [Papers](http://www.mekentosj.com/papers/)
   + [英辞郎ビューア](http://numata.designed.jp/ja/software/eview.html)
-  + [FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)
+  + [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
+  + [TeX2img](https://tex2img.tech/)
+  + [Docker](https://www.docker.com/)
+  + [Mounty for NTFS](https://mounty.app/)
   + [CCleaner](http://www.piriform.com/ccleaner)
   + [Jedit X Rev.2](http://www.artman21.com/jp/jedit_x/)
   + [Chocolat](http://chocolatapp.com)
@@ -105,3 +75,19 @@
   + [Pocket](https://itunes.apple.com/jp/app/pocket/id568494494?mt=12)
   + [Picturesque](https://itunes.apple.com/jp/app/picturesque/id476511387?mt=12)
   + [ColorSelector](http://jp.fujitsu.com/about/design/ud/assistance/colorselector/)
+  + [Air Display](http://avatron.com/apps/air-display)
+  + [Air Connect](http://avatron.com/apps/air-login) + [Air Login](https://itunes.apple.com/jp/app/air-login/id465539198?mt=8)
+  + [Splashtop 2](https://itunes.apple.com/jp/app/splashtop-2-remote-desktop/id562828328?mt=12) + [Splashtop Streamer](http://www.splashtop.com/ja/home)
+
+
+## Fonts
+
+- [Font Awesome](https://fontawesome.com/) # TeXで使うなら，[Font Awesome 5](https://fontawesome.com/v5/download)と[CTAN: Package fontawesome5](https://www.ctan.org/pkg/fontawesome5)
+- [Source Han Serif / 源ノ明朝](https://github.com/adobe-fonts/source-han-serif)
+- [Source Han Sans / 源ノ角ゴシック](https://github.com/adobe-fonts/source-han-sans)
+- [Source Han Mono / 源ノ等幅](https://github.com/adobe-fonts/source-han-mono)
+- [Noto Serif](https://fonts.google.com/noto/specimen/Noto+Serif)
+- [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans)
+- [Morisawa BIZ UDMincho](https://github.com/googlefonts/morisawa-biz-ud-mincho/)
+- [Morisawa BIZ UDGothic](https://github.com/googlefonts/morisawa-biz-ud-gothic/)
+- [機械彫刻用標準書体フォント](https://font.kim/)

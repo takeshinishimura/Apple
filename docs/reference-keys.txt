@@ -19,6 +19,8 @@ macosのコマンド以外のコマンド
 古いmacos向けコマンド
 macos
 Software
+software
+fonts
 LaTeX
 windows-on-mac
 windows-11
