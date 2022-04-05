@@ -19,29 +19,27 @@ TeXユーザーはわからない人が何がわからないのかがわから�
 install-tl-unx.tar.gz をダウンロードして，インストールする。
 ```
 $ tar xvzf install-tl-unx.tar.gz
-$ cd ./install-tl-20220322
+$ cd ./install-tl-20220405
 $ sudo ./install-tl --no-gui
-$ sudo /usr/local/texlive/2021/bin/universal-darwin/tlmgr path add
+$ sudo /usr/local/texlive/2022/bin/universal-darwin/tlmgr path add
 $ sudo tlmgr update --self --all
 $ kanji-config-updmap-sys status # フォントを確認
-$ sudo kanji-config-updmap-sys auto # morisawa になった
 $ sudo tlmgr repository add http://contrib.texlive.info/current tlcontrib
 $ sudo tlmgr pinning add tlcontrib '*'
 $ sudo tlmgr install japanese-otf-nonfree japanese-otf-uptex-nonfree ptex-fontmaps-macos cjk-gs-integrate-macos
 $ sudo cjk-gs-integrate --link-texmf --cleanup
-```
-[cjk-gs-integrate-macos.pl](https://raw.githubusercontent.com/texjporg/cjk-gs-support/master/cjk-gs-integrate-macos.pl) をダウンロードする。
-```
+$ curl https://raw.githubusercontent.com/texjporg/cjk-gs-support/master/cjk-gs-integrate-macos.pl -o cjk-gs-integrate-macos.pl
 $ sudo perl cjk-gs-integrate-macos.pl --link-texmf
 $ sudo kanji-config-updmap-sys --jis2004 hiragino-highsierra-pron
 $ kanji-config-updmap-sys status # hiragino-highsierra-pron になった
+# sudo kanji-config-updmap-sys auto # morisawa になった
 ```
 なぜヒラギノを埋め込むのかは聞いてはいけない。
 
 一応，確認してみる（気休め）。
 ```
 $ kpsewhich -var-value TEXMF
-$ cat /usr/local/texlive/2021/texmf.cnf
+$ cat /usr/local/texlive/2022/texmf.cnf
 ```
 
 最近は，sudo mktexlsr は必要ないっぽい（「っぽい」の正確性を確認しようとすることは地獄への誘い。やめておく）。
