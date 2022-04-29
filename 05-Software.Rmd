@@ -12,6 +12,8 @@
     - [PopClip Extensions](http://pilotmoon.com/popclip/extensions/)
     - [PopMaker](https://brettterpstra.com/2014/05/12/popmaker-popclip-extension-generator/)
   + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704?mt=12)
+  + [Pure Paste](https://sindresorhus.com/pure-paste)
+  + [Folder Peek](https://sindresorhus.com/folder-peek)
   + [TeX Live](https://www.tug.org/texlive/)
   + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
   + [Homebrew](https://brew.sh/)
