@@ -20,6 +20,7 @@ macosのコマンド以外のコマンド
 macos
 Software
 software
+お気に入りのサイト
 fonts
 LaTeX
 windows-on-mac
