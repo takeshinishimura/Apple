@@ -13,7 +13,7 @@ TeXユーザーはわからない人が何がわからないのかがわから�
 
 知る限り，[MacTeX をおすすめできる場合とそうでない場合（私見）](https://blog.wtsnjp.com/2020/07/07/about-mactex/) が最も親切な説明。
 
-1. [MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，TeXLive-2021のみをインストールする。Ghostscriptはインストールしない方がよい。
+1. [MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，TeXLive-2022のみをインストールする。Ghostscriptはインストールしない方がよい。
 
 1. [Installing TeX Live over the Internet](https://www.tug.org/texlive/acquire-netinstall.html) から，
 install-tl-unx.tar.gz をダウンロードして，インストールする。
@@ -23,6 +23,109 @@ $ cd ./install-tl-20220405
 $ sudo ./install-tl --no-gui
 $ sudo /usr/local/texlive/2022/bin/universal-darwin/tlmgr path add
 $ sudo tlmgr update --self --all
+```
+
+1. Homebrewを使って，Ghostscriptをインストールする。
+
+```
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ cd /opt
+$ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+$ export PATH=$PATH:/opt/homebrew/bin
+$ brew install ghostscript
+```
+
+1. [MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，インストールしたGhostscriptをアンインストールする。
+
+環境によって異なるが，以下を実行すれば問題なく削除できるはず。
+```
+$ sudo rm /usr/local/bin/dvipdf
+$ sudo rm /usr/local/bin/eps2eps
+$ sudo rm /usr/local/bin/font2c
+$ sudo rm /usr/local/bin/gs-X11
+$ sudo rm /usr/local/bin/gs-noX11
+$ sudo rm /usr/local/bin/gsbj
+$ sudo rm /usr/local/bin/gsdj
+$ sudo rm /usr/local/bin/gsdj500
+$ sudo rm /usr/local/bin/gslj
+$ sudo rm /usr/local/bin/gslp
+$ sudo rm /usr/local/bin/gsnd
+$ sudo rm /usr/local/bin/lprsetup.sh
+$ sudo rm /usr/local/bin/pdf2dsc
+$ sudo rm /usr/local/bin/pdf2ps
+$ sudo rm /usr/local/bin/pf2afm
+$ sudo rm /usr/local/bin/pfbtopfa
+$ sudo rm /usr/local/bin/pphs
+$ sudo rm /usr/local/bin/printafm
+$ sudo rm /usr/local/bin/ps2ascii
+$ sudo rm /usr/local/bin/ps2epsi
+$ sudo rm /usr/local/bin/ps2pdf
+$ sudo rm /usr/local/bin/ps2pdf12
+$ sudo rm /usr/local/bin/ps2pdf13
+$ sudo rm /usr/local/bin/ps2pdf14
+$ sudo rm /usr/local/bin/ps2pdfwr
+$ sudo rm /usr/local/bin/ps2ps
+$ sudo rm /usr/local/bin/ps2ps2
+$ sudo rm /usr/local/bin/unix-lpr.sh
+$ sudo rm /usr/local/bin/wftopfa
+$ sudo rm /usr/local/share/man/de/man1/dvipdf.1
+$ sudo rm /usr/local/share/man/de/man1/eps2eps.1
+$ sudo rm /usr/local/share/man/de/man1/font2c.1
+$ sudo rm /usr/local/share/man/de/man1/gsnd.1
+$ sudo rm /usr/local/share/man/de/man1/pdf2dsc.1
+$ sudo rm /usr/local/share/man/de/man1/pdf2ps.1
+$ sudo rm /usr/local/share/man/de/man1/printafm.1
+$ sudo rm /usr/local/share/man/de/man1/ps2ascii.1
+$ sudo rm /usr/local/share/man/de/man1/ps2pdf.1
+$ sudo rm /usr/local/share/man/de/man1/ps2ps.1
+$ sudo rm /usr/local/share/man/de/man1/wftopfa.1
+$ sudo rm /usr/local/share/man/man1/dvipdf.1
+$ sudo rm /usr/local/share/man/man1/font2c.1
+$ sudo rm /usr/local/share/man/man1/gs.1
+$ sudo rm /usr/local/share/man/man1/gslp.1
+$ sudo rm /usr/local/share/man/man1/gsnd.1
+$ sudo rm /usr/local/share/man/man1/pdf2dsc.1
+$ sudo rm /usr/local/share/man/man1/pdf2ps.1
+$ sudo rm /usr/local/share/man/man1/pf2afm.1
+$ sudo rm /usr/local/share/man/man1/pfbtopfa.1
+$ sudo rm /usr/local/share/man/man1/printafm.1
+$ sudo rm /usr/local/share/man/man1/ps2ascii.1
+$ sudo rm /usr/local/share/man/man1/ps2epsi.1
+$ sudo rm /usr/local/share/man/man1/ps2pdf.1
+$ sudo rm /usr/local/share/man/man1/ps2pdfwr.1
+$ sudo rm /usr/local/share/man/man1/ps2ps.1
+$ sudo rm /usr/local/share/man/man1/wftopfa.1
+$ sudo rm -rf /usr/local/share/ghostscript
+$ sudo rm -rf /usr/local/share/doc/ghostscript
+```
+
+1. [MacTeX](https://www.tug.org/mactex/) のGhostscriptをアンインストールした後に，Homebrewを使って，Ghostscriptをインストールする。
+
+ゴミが残っている場合，インストールが完了しない。
+警告に従って，修正すればよいが，よくわからなければ以下を実行すればよいはず。
+
+```
+$ brew install ghostscript
+$ brew link --overwrite ghostscript
+```
+
+無事にインストールできたかを確認したければ，
+```
+$ gs -version
+```
+または
+```
+$ which gs
+```
+を実行する。
+それっぽいものが返ってくると，Ghostscriptのインストールに成功している。
+エラーが出たり，何も返ってこなければインストールに失敗している。
+
+1. ヒラギノを埋め込む
+
+以下を実行する前に，TeX LiveとGhostscriptをインストールしておく必要がある。
+
+```
 $ kanji-config-updmap-sys status # フォントを確認
 $ sudo tlmgr repository add http://contrib.texlive.info/current tlcontrib
 $ sudo tlmgr pinning add tlcontrib '*'
@@ -32,7 +135,7 @@ $ curl https://raw.githubusercontent.com/texjporg/cjk-gs-support/master/cjk-gs-i
 $ sudo perl cjk-gs-integrate-macos.pl --link-texmf
 $ sudo kanji-config-updmap-sys --jis2004 hiragino-highsierra-pron
 $ kanji-config-updmap-sys status # hiragino-highsierra-pron になった
-# sudo kanji-config-updmap-sys auto # morisawa になった
+$ sudo kanji-config-updmap-sys auto # morisawa になった
 ```
 なぜヒラギノを埋め込むのかは聞いてはいけない。
 
@@ -43,12 +146,3 @@ $ cat /usr/local/texlive/2022/texmf.cnf
 ```
 
 最近は，sudo mktexlsr は必要ないっぽい（「っぽい」の正確性を確認しようとすることは地獄への誘い。やめておく）。
-
-1. Homebrewを使って，Ghostscriptをインストールする。
-```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-$ cd /opt
-$ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
-$ export PATH=$PATH:/opt/homebrew/bin
-$ brew install ghostscript
-```
