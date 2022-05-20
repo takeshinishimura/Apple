@@ -1,5 +1,7 @@
 # LaTeX {#LaTeX}
 
+## TeX Liveのインストール
+
 [macOS Monterey](https://www.apple.com/jp/macos/monterey/) で [TeX Live](https://www.tug.org/texlive/) を使う方法。
 Intelではなく，Apple siliconであることを想定している（一部異なる）。
 
@@ -25,19 +27,42 @@ $ sudo /usr/local/texlive/2022/bin/universal-darwin/tlmgr path add
 $ sudo tlmgr update --self --all
 ```
 
-1. Homebrewを使って，Ghostscriptをインストールする。
+念のため，PATHを確認しておく。
+```
+$ kpsewhich -var-value TEXMF
+$ cat /usr/local/texlive/2022/texmf.cnf
+```
+
+## Ghostscriptのインストール
+
+Homebrewを使って，Ghostscriptをインストールする。
 
 ```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ cd /opt
 $ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+```
+
+Intelの場合は以下を実行する。
+```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ # /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+PATHを通す。
+```
 $ export PATH=$PATH:/opt/homebrew/bin
+```
+
+Ghostscriptをインストールする。
+```
 $ brew install ghostscript
 ```
 
-1. [MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，インストールしたGhostscriptをアンインストールする。
+## Ghostscriptのアンインストール
 
-環境によって異なるが，以下を実行すれば問題なく削除できるはず。
+[MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，インストールしたGhostscriptをアンインストールする。
+
+環境によって異なるが，以下を実行すればほぼ問題なくアンインストールできるはず。
 ```
 $ sudo rm /usr/local/bin/dvipdf
 $ sudo rm /usr/local/bin/eps2eps
@@ -101,11 +126,14 @@ $ sudo rm -rf /usr/local/share/doc/ghostscript
 
 1. [MacTeX](https://www.tug.org/mactex/) のGhostscriptをアンインストールした後に，Homebrewを使って，Ghostscriptをインストールする。
 
+```
+$ brew install ghostscript
+```
+
 ゴミが残っている場合，インストールが完了しない。
 警告に従って，修正すればよいが，よくわからなければ以下を実行すればよいはず。
 
 ```
-$ brew install ghostscript
 $ brew link --overwrite ghostscript
 ```
 
@@ -121,7 +149,8 @@ $ which gs
 それっぽいものが返ってくると，Ghostscriptのインストールに成功している。
 エラーが出たり，何も返ってこなければインストールに失敗している。
 
-1. ヒラギノを埋め込む
+
+## ヒラギノを埋め込む
 
 以下を実行する前に，TeX LiveとGhostscriptをインストールしておく必要がある。
 
@@ -135,14 +164,8 @@ $ curl https://raw.githubusercontent.com/texjporg/cjk-gs-support/master/cjk-gs-i
 $ sudo perl cjk-gs-integrate-macos.pl --link-texmf
 $ sudo kanji-config-updmap-sys --jis2004 hiragino-highsierra-pron
 $ kanji-config-updmap-sys status # hiragino-highsierra-pron になった
-$ sudo kanji-config-updmap-sys auto # morisawa になった
+$ # sudo kanji-config-updmap-sys auto # morisawa になった
 ```
 なぜヒラギノを埋め込むのかは聞いてはいけない。
-
-一応，確認してみる（気休め）。
-```
-$ kpsewhich -var-value TEXMF
-$ cat /usr/local/texlive/2022/texmf.cnf
-```
 
 最近は，sudo mktexlsr は必要ないっぽい（「っぽい」の正確性を確認しようとすることは地獄への誘い。やめておく）。

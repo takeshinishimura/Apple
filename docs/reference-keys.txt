@@ -23,6 +23,10 @@ software
 お気に入りのサイト
 fonts
 LaTeX
+tex-liveのインストール
+ghostscriptのインストール
+ghostscriptのアンインストール
+ヒラギノを埋め込む
 windows-on-mac
 windows-11
 Mac
