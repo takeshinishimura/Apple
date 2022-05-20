@@ -107,7 +107,7 @@
 <ul>
 <li class="chapter" data-level="7.1" data-path="7-LaTeX.html"><a href="7-LaTeX.html#tex-liveのインストール"><i class="fa fa-check"></i><b>7.1</b> TeX Liveのインストール</a></li>
 <li class="chapter" data-level="7.2" data-path="7-LaTeX.html"><a href="7-LaTeX.html#ghostscriptのインストール"><i class="fa fa-check"></i><b>7.2</b> Ghostscriptのインストール</a></li>
-<li class="chapter" data-level="7.3" data-path="7-LaTeX.html"><a href="7-LaTeX.html#ghostscriptのアンインストール"><i class="fa fa-check"></i><b>7.3</b> Ghostscriptのアンインストール</a></li>
+<li class="chapter" data-level="7.3" data-path="7-LaTeX.html"><a href="7-LaTeX.html#mactexのghostscriptのアンインストール"><i class="fa fa-check"></i><b>7.3</b> MacTeXのGhostscriptのアンインストール</a></li>
 <li class="chapter" data-level="7.4" data-path="7-LaTeX.html"><a href="7-LaTeX.html#ヒラギノを埋め込む"><i class="fa fa-check"></i><b>7.4</b> ヒラギノを埋め込む</a></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="8-windows-on-mac.html"><a href="8-windows-on-mac.html"><i class="fa fa-check"></i><b>8</b> Windows on Mac</a>
@@ -186,8 +186,8 @@ $ # /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebr
 <p>Ghostscriptをインストールする。</p>
 <pre><code>$ brew install ghostscript</code></pre>
 </div>
-<div id="ghostscriptのアンインストール" class="section level2 hasAnchor" number="7.3">
-<h2><span class="header-section-number">7.3</span> Ghostscriptのアンインストール<a href="7-LaTeX.html#ghostscriptのアンインストール" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="mactexのghostscriptのアンインストール" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> MacTeXのGhostscriptのアンインストール<a href="7-LaTeX.html#mactexのghostscriptのアンインストール" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><a href="https://www.tug.org/mactex/">MacTeX</a> のインストーラーを使って，インストールしたGhostscriptをアンインストールする。</p>
 <p>環境によって異なるが，以下を実行すればほぼ問題なくアンインストールできるはず。</p>
 <pre><code>$ sudo rm /usr/local/bin/dvipdf
@@ -248,9 +248,7 @@ $ sudo rm /usr/local/share/man/man1/ps2ps.1
 $ sudo rm /usr/local/share/man/man1/wftopfa.1
 $ sudo rm -rf /usr/local/share/ghostscript
 $ sudo rm -rf /usr/local/share/doc/ghostscript</code></pre>
-<ol style="list-style-type: decimal">
-<li><a href="https://www.tug.org/mactex/">MacTeX</a> のGhostscriptをアンインストールした後に，Homebrewを使って，Ghostscriptをインストールする。</li>
-</ol>
+<p><a href="https://www.tug.org/mactex/">MacTeX</a> のGhostscriptをアンインストールした後に，Homebrewを使って，Ghostscriptをインストールする。</p>
 <pre><code>$ brew install ghostscript</code></pre>
 <p>ゴミが残っている場合，インストールが完了しない。
 警告に従って，修正すればよいが，よくわからなければ以下を実行すればよいはず。</p>

@@ -58,7 +58,7 @@ Ghostscriptをインストールする。
 $ brew install ghostscript
 ```
 
-## Ghostscriptのアンインストール
+## MacTeXのGhostscriptのアンインストール
 
 [MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，インストールしたGhostscriptをアンインストールする。
 
@@ -124,7 +124,7 @@ $ sudo rm -rf /usr/local/share/ghostscript
 $ sudo rm -rf /usr/local/share/doc/ghostscript
 ```
 
-1. [MacTeX](https://www.tug.org/mactex/) のGhostscriptをアンインストールした後に，Homebrewを使って，Ghostscriptをインストールする。
+[MacTeX](https://www.tug.org/mactex/) のGhostscriptをアンインストールした後に，Homebrewを使って，Ghostscriptをインストールする。
 
 ```
 $ brew install ghostscript
