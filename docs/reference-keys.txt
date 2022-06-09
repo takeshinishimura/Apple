@@ -27,8 +27,12 @@ tex-liveのインストール
 ghostscriptのインストール
 mactexのghostscriptのアンインストール
 ヒラギノを埋め込む
+texshopの設定
+参考文献
 windows-on-mac
 windows-11
+Hardware
+macbook-pro-14-inch-2021のsdxcカードスロット
 Mac
 laptop
 list

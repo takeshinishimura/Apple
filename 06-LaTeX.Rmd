@@ -102,6 +102,7 @@ $ sudo rm /usr/local/share/man/de/man1/pdf2ps.1
 $ sudo rm /usr/local/share/man/de/man1/printafm.1
 $ sudo rm /usr/local/share/man/de/man1/ps2ascii.1
 $ sudo rm /usr/local/share/man/de/man1/ps2pdf.1
+$ sudo rm /usr/local/share/man/de/man1/ps2pdf12.1
 $ sudo rm /usr/local/share/man/de/man1/ps2ps.1
 $ sudo rm /usr/local/share/man/de/man1/wftopfa.1
 $ sudo rm /usr/local/share/man/man1/dvipdf.1
@@ -117,6 +118,7 @@ $ sudo rm /usr/local/share/man/man1/printafm.1
 $ sudo rm /usr/local/share/man/man1/ps2ascii.1
 $ sudo rm /usr/local/share/man/man1/ps2epsi.1
 $ sudo rm /usr/local/share/man/man1/ps2pdf.1
+$ sudo rm /usr/local/share/man/man1/ps2pdf12.1
 $ sudo rm /usr/local/share/man/man1/ps2pdfwr.1
 $ sudo rm /usr/local/share/man/man1/ps2ps.1
 $ sudo rm /usr/local/share/man/man1/wftopfa.1
@@ -169,3 +171,18 @@ $ # sudo kanji-config-updmap-sys auto # morisawa になった
 なぜヒラギノを埋め込むのかは聞いてはいけない。
 
 最近は，sudo mktexlsr は必要ないっぽい（「っぽい」の正確性を確認しようとすることは地獄への誘い。やめておく）。
+
+
+## TeXShopの設定
+
+「設定プロファイル」から「upTeX (ptex2pdf)」を選択する。
+
+```
+defaults write TeXShop FixLineNumberScroll NO
+defaults write TeXShop SourceScrollElasticity NO
+defaults write TeXShop FixPreviewBlur YES
+```
+
+### 参考文献
+
+- [MacTeX 2019 のインストール＆日本語環境構築法 - TeX Alchemist Online](https://doratex.hatenablog.jp/entry/20190502/1556775026)

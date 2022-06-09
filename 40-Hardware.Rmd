@@ -1,0 +1,15 @@
+# Hardware {#Hardware}
+
+## MacBook Pro (14-inch, 2021)のSDXCカードスロット
+
+MacBook Pro (14-inch, 2021)のSDXCカードスロットにmicroSDカードを挿しっぱなにすることができる。
+
+以前，The Nifty MiniDriveから販売されていたMacBook Pro (Retina, 13-inch, Late 2013)用のTheMiniDriveを使うことができる。
+
+![MacBook Pro (14-inch, 2021)に挿したTheMiniDrive](IMG_1910.jpg)
+
+ほぼピッタリなサイズで，問題なく使える。
+ただし，若干すき間ができるため，ホコリが入る可能性がある。
+
+- [The Nifty MiniDrive by niftydrives — Kickstarter](https://www.kickstarter.com/projects/1342319572/the-nifty-minidrive)
+- [TheMiniDrive | Seamless MacBook Storage – TheMiniDrive.com](https://www.theminidrive.com/)
