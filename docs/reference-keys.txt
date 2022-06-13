@@ -1,9 +1,10 @@
 はじめに
 apple
 apple-サポート
+apple-developer
 Inputs
 font
-apple-developer
+apple-developer-1
 appleのフォント
 googleのフォント
 文字入力

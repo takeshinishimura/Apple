@@ -7,3 +7,7 @@
 - [Mac notebooks：キー配置と機能](https://support.apple.com/ja-jp/HT3164)
 - [iPad や Mac ノートブックの電源アダプタで iPhone を充電する](https://support.apple.com/ja-jp/HT202105)
 - [Pages、Numbers、Keynote の計算の精度向上について](https://support.apple.com/ja-jp/HT210179)
+
+## Apple Developer
+
+- [Marketing Resources and Identity Guidelines](https://developer.apple.com/app-store/marketing/guidelines/)
