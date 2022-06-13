@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1 はじめに | Apple.knit</title>
+  <title>9 Windows on Mac | Apple.knit</title>
   <meta name="description" content="" />
   <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1 はじめに | Apple.knit" />
+  <meta property="og:title" content="9 Windows on Mac | Apple.knit" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1 はじめに | Apple.knit" />
+  <meta name="twitter:title" content="9 Windows on Mac | Apple.knit" />
   
   
   
@@ -28,8 +28,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="2-apple.html"/>
+<link rel="prev" href="8-LaTeX.html"/>
+<link rel="next" href="10-Hardware.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -165,20 +165,44 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<!--bookdown:title:end-->
-<!--bookdown:title:start-->
-<div id="はじめに" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">1</span> はじめに<a href="index.html#はじめに" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>自分用の備忘録です。</p>
+<div id="windows-on-mac" class="section level1 hasAnchor" number="9">
+<h1><span class="header-section-number">9</span> Windows on Mac<a href="9-windows-on-mac.html#windows-on-mac" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>VMware Fusionを使用するにあたっての注意。</p>
+<div id="windows-11" class="section level2 hasAnchor" number="9.1">
+<h2><span class="header-section-number">9.1</span> Windows 11<a href="9-windows-on-mac.html#windows-11" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Windows 11をインストールするためには，<a href="https://www.microsoft.com/windows/windows-11-specifications">最小システム要件</a>を満たしておく必要がある。</p>
+<ul>
+<li>パーティションのスタイルを，マスターブートレコード(MBR)からGUIDパーティションテーブル(GPT)に変更する。
+<ul>
+<li>Windows 10を起動する。</li>
+<li>管理者権限でコマンドプロンプトを開く。</li>
+</ul>
+<pre><code>mbr2gpt /convert /disk:0 /allowFullOS</code></pre>
+<ul>
+<li>レジストリ エディターを開き，次のレジストリ キーの値を作成する。</li>
+</ul>
+<pre><code>レジストリ キー: HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup
+名前: AllowUpgradesWithUnsupportedTPMOrCPU
+種類: REG_DWORD
+値: 1</code></pre>
+<ul>
+<li>Windows 10をシャットダウンする。</li>
+</ul></li>
+<li>「詳細」から，「ファームウェアタイプ」を「UEFI」に変更し，「UEFIセキュアブートを有効にする」にチェックを入れる。</li>
+<li>「暗号化」から，「暗号化を有効にする」にチェックを入れる。</li>
+<li>「デバイスを追加…」から，「Trusted Platform Module」を選択し，「追加」をクリックする。</li>
+<li>「プロセッサとメモリ」から，「プロセッサ」を「2個のプロセッサ コア」を選択する。</li>
+</ul>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="2-apple.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="8-LaTeX.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="10-Hardware.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

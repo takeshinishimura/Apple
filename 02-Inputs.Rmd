@@ -1,0 +1,59 @@
+# 文字入力 {#Inputs}
+
+## Font
+
+### Apple Developer
+
+いくつかのフォントを無料でダウンロードできる。
+- [Fonts for Apple Platforms](https://developer.apple.com/fonts/)
+
+
+### Appleのフォント
+
+- Apple Garamond
+- Myriad
+
+[Apple製品のロゴのフォントはMyriad（ミリアド）](http://gajetdaisuke.com/archives/08126_011939.php "http://gajetdaisuke.com/archives/08126_011939.php")
+
+
+### Googleのフォント
+
+- Catull
+
+[Google社ロゴはどう作られたか](http://wiredvision.jp/news/200803/2008033123.html "http://wiredvision.jp/news/200803/2008033123.html")
+
+
+## 文字入力
+
+### en dash (–)とem dash (—)の入力方法
+
+macOS
+
+- en dash: ⌥ + -
+- em dash: ⌥ + ⇧ + -
+
+Windows
+
+- en dash: Alt + 0150 or Ctrl + テンキーの-
+- em dash: Alt + 0151 or Ctrl + Alt + テンキーの-
+
+
+## 文字化け
+
+メールの文字化けは以下で対応する。
+
+- [文字化けしたメールの修復](https://www.kanzaki.com/docs/jis-recover.html)
+
+添付ファイルにwinmail.datが付いている場合，その中身を確認するためには，そのファイルを変換しなければならない。
+
+- [winmail.dat変換ツール(インストール不要)](http://winmaildat.net/)
+
+ただし，ファイルサイズが大きすぎる場合，変換できないため，[Google検索](https://www.google.com/search?client=safari&rls=en&q=winmail.dat+変換&ie=UTF-8&oe=UTF-8)して，適当なサービスを利用する。
+一方，ファイルサイズが小さすぎる場合，ゴミであることがある。
+
+
+## Tips
+
+### 隠しファイルを表示する
+
+- ⌘ + ⇧ + .
