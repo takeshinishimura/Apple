@@ -4,7 +4,8 @@
 
 ### Apple Developer
 
-いくつかのフォントを無料でダウンロードできる。
+Apple公式サイトから，いくつかのフォントを無料でダウンロードできる。
+
 - [Fonts for Apple Platforms](https://developer.apple.com/fonts/)
 
 
@@ -50,6 +51,9 @@ Windows
 
 ただし，ファイルサイズが大きすぎる場合，変換できないため，[Google検索](https://www.google.com/search?client=safari&rls=en&q=winmail.dat+変換&ie=UTF-8&oe=UTF-8)して，適当なサービスを利用する。
 一方，ファイルサイズが小さすぎる場合，ゴミであることがある。
+
+ウェブブラウザの文字化けには，テキストエンコードを変更する必要がある。
+どのエンコードにすべきかわからなければ，日本語の中から順番に変えていけばよい。
 
 
 ## Tips
