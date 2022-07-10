@@ -55,7 +55,7 @@
   + [mmhmm](https://www.mmhmm.app/)
   + [Vrew](https://vrew.voyagerx.com/ja/)
   + [FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)
-- 別になくても大丈夫（昔はないと困っていたが，今は困らない）
+- 昔はないと困っていたが，今は困らない（あるいは，最新のOSでは使えない）
   + [Papers](http://www.mekentosj.com/papers/)
   + [Intego NetBarrier X5](https://www.intego.com/)
   + [egbridge Universal](http://www.ergo.co.jp/products/egb17/)
@@ -82,12 +82,25 @@
   + [Splashtop 2](https://itunes.apple.com/jp/app/splashtop-2-remote-desktop/id562828328?mt=12) + [Splashtop Streamer](http://www.splashtop.com/ja/home)
 
 
-## お気に入りのサイト
+## お気に入りのデベロッパーサイト
 
 - [teatimelogic](http://www.teatimelogic.com/)
 - [Sindre Sorhus](https://sindresorhus.com/apps)
-- 
-- 
+- [UNIXで電子辞書をしゃぶりつくそう](http://hp.vector.co.jp/authors/VA000022/unixdic/)
+- [対訳君＆CheckAlignユーザーズサイト](http://www.mcl-corp.jp/usersite/us_index.htm)
+
+
+- [Adobe Labs](http://labs.macromedia.com/)
+- [kuler](http://kuler.adobe.com/)
+
+## Windows
+
+- [EBView](http://ebview.sourceforge.net/home-ja.html)
+- [Free FLV Player for Windows](http://flv-player.us/index_mdv.php)
+- [CPUID](https://www.cpuid.com/index.php)
+- [名作フリーソフトを訪ねて](https://xtech.nikkei.com/it/pc/article/special/20081024/1009118/)
+- [“一芸”オンラインソフト](https://xtech.nikkei.com/it/pc/article/NPC/20071108/286796/)
+- [DVD 関連のフリーソフト](https://www.gigafree.net/media/ripping/)
 
 
 ## Fonts

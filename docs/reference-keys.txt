@@ -26,7 +26,8 @@ macosのコマンド以外のコマンド
 macos
 Software
 software
-お気に入りのサイト
+お気に入りのデベロッパーサイト
+windows
 fonts
 LaTeX
 tex-liveのインストール
@@ -35,6 +36,13 @@ mactexのghostscriptのアンインストール
 ヒラギノを埋め込む
 texshopの設定
 参考文献
+R
+rのインストール
+Python
+pythonのインストール
+pipのインストール
+pip3
+参考文献-1
 windows-on-mac
 windows-11
 Hardware

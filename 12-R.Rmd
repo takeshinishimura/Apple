@@ -1,0 +1,7 @@
+# R {#R}
+
+## Rのインストール
+
+以下からインストーラをダウンロードして，インストールする。
+
+[The Comprehensive R Archive Network](https://cran.r-project.org/)

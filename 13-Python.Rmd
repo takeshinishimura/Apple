@@ -1,0 +1,69 @@
+# Python {#Python}
+
+ここに書かれている情報は，試行錯誤を伴っているため，間違っている可能性がある。
+
+
+## Pythonのインストール
+
+Command Line Toolsをインストールすると，/usr/bin/python3 にインストールされるはず。
+```
+$ xcode-select --install
+```
+
+バージョンを確認する。
+```
+$ python3 --version
+```
+
+終了したい場合は，以下を入力する。
+```
+>>> quit()
+```
+または
+```
+>>> exit()
+```
+
+
+## pipのインストール
+
+たぶんこれは必要ない。
+
+~/Library/Python/3.8 にインストールされる。
+```
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ python3 get-pip.py
+$ python3 -m pip install --upgrade pip
+```
+
+パスを通すため，~/.zshenv に以下を追加する。
+```
+export PATH=$PATH:~/Library/Python/3.8/bin
+```
+
+追加したパスを使えるようにする。
+```
+$ source ~/.zshenv
+```
+
+## pip3
+
+pipをアップデートする。
+```
+$ pip3 install --upgrade pip
+```
+
+アップデート可能なパッケージを調べる。
+```
+$ pip3 list --outdated
+```
+
+パッケージをアップデートする。
+```
+$ pip3 install --upgrade <package-name>
+```
+
+
+## 参考文献
+
+- [Python](https://okumuralab.org/~okumura/python/)
