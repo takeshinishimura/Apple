@@ -26,10 +26,10 @@
 
 ## iPads
 
-- [iPad Air (5th generation)](https://support.apple.com/kb/SP866) (iPad13,16) <- iPadOS 15.5 Public Beta
-- [iPad mini (6th generation)](https://support.apple.com/kb/SP850) (iPad14,2) <- iPadOS 15.5 Public Beta
-- ~~[iPad Air (4th generation)](https://support.apple.com/kb/SP828) (iPad13,1) <- iPadOS 15.5 Public Beta~~
-- [iPad Pro (9.7-inch)](https://support.apple.com/kb/SP739) (iPad6,4) <- iPadOS 15.5 Public Beta
+- [iPad Air (5th generation)](https://support.apple.com/kb/SP866) (iPad13,16) <- iPadOS 16 Public Beta
+- [iPad mini (6th generation)](https://support.apple.com/kb/SP850) (iPad14,2) <- iPadOS 16 Public Beta
+- ~~[iPad Air (4th generation)](https://support.apple.com/kb/SP828) (iPad13,1) <- iPadOS 16 Public Beta~~
+- [iPad Pro (9.7-inch)](https://support.apple.com/kb/SP739) (iPad6,4) <- iPadOS 16 Public Beta
 - ~~[iPad mini 3](https://support.apple.com/kb/SP709) (iPad4,7) <- iPadOS 12.5.5~~
 - [iPad Air](https://support.apple.com/kb/SP692) (iPad4,1) <- iPadOS 12.5.5
 - [iPad (3rd generation)](https://support.apple.com/kb/SP647) (iPad3,1) <- iOS 9.3.5
