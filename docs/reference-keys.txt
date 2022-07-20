@@ -25,10 +25,11 @@ macosのコマンド以外のコマンド
 古いmacos向けコマンド
 macos
 Software
-software
-お気に入りのデベロッパーサイト
-windows
+essential
+important
+fav_developer_site
 fonts
+others
 LaTeX
 tex-liveのインストール
 ghostscriptのインストール
