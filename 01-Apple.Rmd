@@ -11,3 +11,4 @@
 ## Apple Developer
 
 - [Marketing Resources and Identity Guidelines](https://developer.apple.com/app-store/marketing/guidelines/)
+- [Apple Design Resources](https://developer.apple.com/design/resources/)
