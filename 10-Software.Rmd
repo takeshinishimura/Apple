@@ -85,6 +85,7 @@ macOSで有益なソフトウェアのリストです。
 - [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans)
 - [Morisawa BIZ UDMincho](https://github.com/googlefonts/morisawa-biz-ud-mincho/)
 - [Morisawa BIZ UDGothic](https://github.com/googlefonts/morisawa-biz-ud-gothic/)
+- [IBM Plex Sans JP](https://github.com/IBM/plex/releases/tag/v5.2.1)
 - [機械彫刻用標準書体フォント](https://font.kim/)
 
 
