@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>8 LaTeX | Apple.knit</title>
   <meta name="description" content="" />
-  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
   <meta property="og:title" content="8 LaTeX | Apple.knit" />
   <meta property="og:type" content="book" />
@@ -221,6 +221,13 @@ $ # /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebr
 <pre><code>$ export PATH=$PATH:/opt/homebrew/bin</code></pre>
 <p>Ghostscriptをインストールする。</p>
 <pre><code>$ brew install ghostscript</code></pre>
+<p>無事にインストールできたかを確認したければ，</p>
+<pre><code>$ gs -version</code></pre>
+<p>または</p>
+<pre><code>$ which gs</code></pre>
+<p>を実行する。
+それっぽいものが返ってくると，Ghostscriptのインストールに成功している。
+エラーが出たり，何も返ってこなければインストールに失敗している。</p>
 </div>
 <div id="mactexのghostscriptのアンインストール" class="section level2 hasAnchor" number="8.3">
 <h2><span class="header-section-number">8.3</span> MacTeXのGhostscriptのアンインストール<a href="8-LaTeX.html#mactexのghostscriptのアンインストール" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -291,13 +298,6 @@ $ sudo rm -rf /usr/local/share/doc/ghostscript</code></pre>
 <p>ゴミが残っている場合，インストールが完了しない。
 警告に従って，修正すればよいが，よくわからなければ以下を実行すればよいはず。</p>
 <pre><code>$ brew link --overwrite ghostscript</code></pre>
-<p>無事にインストールできたかを確認したければ，</p>
-<pre><code>$ gs -version</code></pre>
-<p>または</p>
-<pre><code>$ which gs</code></pre>
-<p>を実行する。
-それっぽいものが返ってくると，Ghostscriptのインストールに成功している。
-エラーが出たり，何も返ってこなければインストールに失敗している。</p>
 </div>
 <div id="ヒラギノを埋め込む" class="section level2 hasAnchor" number="8.4">
 <h2><span class="header-section-number">8.4</span> ヒラギノを埋め込む<a href="8-LaTeX.html#ヒラギノを埋め込む" class="anchor-section" aria-label="Anchor link to header"></a></h2>

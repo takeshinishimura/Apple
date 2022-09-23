@@ -58,6 +58,19 @@ Ghostscriptをインストールする。
 $ brew install ghostscript
 ```
 
+無事にインストールできたかを確認したければ，
+```
+$ gs -version
+```
+または
+```
+$ which gs
+```
+を実行する。
+それっぽいものが返ってくると，Ghostscriptのインストールに成功している。
+エラーが出たり，何も返ってこなければインストールに失敗している。
+
+
 ## MacTeXのGhostscriptのアンインストール
 
 [MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，インストールしたGhostscriptをアンインストールする。
@@ -138,18 +151,6 @@ $ brew install ghostscript
 ```
 $ brew link --overwrite ghostscript
 ```
-
-無事にインストールできたかを確認したければ，
-```
-$ gs -version
-```
-または
-```
-$ which gs
-```
-を実行する。
-それっぽいものが返ってくると，Ghostscriptのインストールに成功している。
-エラーが出たり，何も返ってこなければインストールに失敗している。
 
 
 ## ヒラギノを埋め込む
