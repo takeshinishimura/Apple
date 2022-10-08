@@ -8,6 +8,8 @@
 - [Mac notebooks：キー配置と機能](https://support.apple.com/ja-jp/HT3164)
 - [iPad や Mac ノートブックの電源アダプタで iPhone を充電する](https://support.apple.com/ja-jp/HT202105)
 - [Pages、Numbers、Keynote の計算の精度向上について](https://support.apple.com/ja-jp/HT210179)
+- [Mac でセーフモードを使う方法 - Apple サポート (日本)](https://support.apple.com/ja-jp/HT201262)
+
 
 ## Apple Developer
 
