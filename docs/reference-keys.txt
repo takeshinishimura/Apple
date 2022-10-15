@@ -23,7 +23,6 @@ dockに追加
 Terminal
 macosのコマンド以外のコマンド
 古いmacos向けコマンド
-日本語を入力する
 macos
 Software
 essential

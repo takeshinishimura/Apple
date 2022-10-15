@@ -154,7 +154,7 @@ $ defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Find
 $ ls -v
 ```
 
-## 日本語を入力する
+日本語を入力する
 ```
 $ vi ~/.inputrc
 ```
