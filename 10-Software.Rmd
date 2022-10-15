@@ -89,6 +89,16 @@ macOSで有益なソフトウェアのリストです。
 - [機械彫刻用標準書体フォント](https://font.kim/)
 
 
+## Touch Bar
+
+- [GitHub - billziss-gh/EnergyBar: Supercharge your Mac's Touch Bar.](https://github.com/billziss-gh/EnergyBar)
+- [GitHub - avatsaev/touchbar_nyancat: Stupid nyancat animation on your +$2k MacBook Pro's Touchbar](https://github.com/avatsaev/touchbar_nyancat)
+- [Utsire - Touch Bar Piano](https://www.utsire.com/touch-bar-piano/)
+- [GitHub - henryefranks/pac-bar: Pac-Man for the MacBook Pro Touch Bar](https://github.com/henryefranks/pac-bar)
+- [TouchSwitcher app switcher for Touch Bar](https://hazeover.com/touchswitcher.html)
+- [The Original Quick Launcher for Touch Bar](http://julianthayn.com/rocket)
+
+
 ## その他（メモ） {#others}
 
 - [EBView](http://ebview.sourceforge.net/home-ja.html)
@@ -99,3 +109,10 @@ macOSで有益なソフトウェアのリストです。
 - [名作フリーソフトを訪ねて](https://xtech.nikkei.com/it/pc/article/special/20081024/1009118/)
 - [“一芸”オンラインソフト](https://xtech.nikkei.com/it/pc/article/NPC/20071108/286796/)
 - [DVD 関連のフリーソフト](https://www.gigafree.net/media/ripping/)
+
+
+## Tips {#tips}
+
+- [macOS Sierra (10.12) で Photoshop CS6 / Illustrator CS6 を使う](https://doratex.hatenablog.jp/entry/20160921/1474401468)
+
+Mac OS X 10.4 (Tiger) に標準で登録されているDashboard WidgetのWeatherでは，「City, Sate or ZIP Code:」の欄でreturnキーを押さなければ接続されない。

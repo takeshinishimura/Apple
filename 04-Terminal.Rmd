@@ -136,3 +136,30 @@ $ sudo nvram StartupMute=%01
 ```
 $ defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
 ```
+
+- Pantherで日本語を表示させる。
+
+「ターミナル」→「ウィンドウ設定...」で「ターミナルインスペクタ」を開く。
+
+→「エミュレーション」
+
+「非 ASCII 文字をエスケープする」のチェックをはずす。
+
+→「ディスプレイ」
+
+「ワイドグリフは 2 桁とカウントする」にチェックする。
+「設定をデフォルトとして使用」をクリックする。
+
+```
+$ ls -v
+```
+
+## 日本語を入力する
+```
+$ vi ~/.inputrc
+```
+以下を記述する。
+
+set convert-meta off
+set output-meta on
+set input-meta on
