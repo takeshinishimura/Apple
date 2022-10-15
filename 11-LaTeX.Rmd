@@ -187,3 +187,12 @@ defaults write TeXShop FixPreviewBlur YES
 ### 参考文献
 
 - [MacTeX 2019 のインストール＆日本語環境構築法 - TeX Alchemist Online](https://doratex.hatenablog.jp/entry/20190502/1556775026)
+
+
+## Tips
+
+- [Detexify LaTeX handwritten symbol recognition](http://detexify.kirelabs.org/classify.html)
+特殊記号の書き方を調べる。
+- [Mirroring text in LaTeX – texblog](https://texblog.org/2013/11/19/mirroring-text-in-latex/)
+- [XeLaTeXだとかな混植が簡単にできて最高だという話 - すずしめにっき](https://suzusime-log.hatenablog.jp/entry/2017/04/15/210327)
+- \relax 何もしない
