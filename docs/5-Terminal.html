@@ -191,35 +191,41 @@
 <ul>
 <li>単一ファイル</li>
 </ul>
-<pre><code>zip --delete filename.zip &quot;*.DS_Store&quot;
-zip --delete filename.zip &quot;*__MACOSX*&quot;</code></pre>
+<pre><code>$ zip --delete filename.zip &quot;*.DS_Store&quot;
+$ zip --delete filename.zip &quot;*__MACOSX*&quot;</code></pre>
 <ul>
 <li>複数ファイル</li>
 </ul>
-<pre><code>find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*.DS_Store&quot; \;
-find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*__MACOSX*&quot; \;</code></pre></li>
+<pre><code>$ find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*.DS_Store&quot; \;
+$ find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*__MACOSX*&quot; \;</code></pre></li>
 <li>不可視ファイルを削除する。
 <ul>
 <li>「.DS_Store」を削除する。</li>
 </ul>
-<pre><code>sudo find / -name &quot;.DS_Store&quot; -delete
+<pre><code>$ sudo find / -name &quot;.DS_Store&quot; -delete
 # ホームディレクトリのみ
-sudo find ~/ -name &quot;.DS_Store&quot; -delete</code></pre>
+$ sudo find ~/ -name &quot;.DS_Store&quot; -delete</code></pre>
 <ul>
 <li>「.Rapp.history」を削除する。</li>
 </ul>
-<pre><code>sudo find / -name &quot;.Rapp.history&quot; -delete
+<pre><code>$ sudo find / -name &quot;.Rapp.history&quot; -delete
 # ホームディレクトリのみ
-sudo find ~/ -name &quot;.Rapp.history&quot; -delete</code></pre></li>
+$ sudo find ~/ -name &quot;.Rapp.history&quot; -delete</code></pre>
+<ul>
+<li>「.Rhistory」を削除する。</li>
+</ul>
+<pre><code>$ sudo find / -name &quot;.Rhistory&quot; -delete
+# ホームディレクトリのみ
+$ sudo find ~/ -name &quot;.Rhistory&quot; -delete</code></pre></li>
 <li>ファイルの日付を変更する。</li>
 </ul>
-<pre><code>touch -t 202005182400 filename.jpg</code></pre>
+<pre><code>$ touch -t 202005182400 filename.jpg</code></pre>
 <ul>
 <li>PATHを確認する。</li>
 </ul>
-<pre><code>printenv PATH</code></pre>
+<pre><code>$ printenv PATH</code></pre>
 <p>または</p>
-<pre><code>echo $PATH</code></pre>
+<pre><code>$ echo $PATH</code></pre>
 <ul>
 <li>PATHを通す。
 .zshenv（または，~/.bash_profileなど）に</li>
@@ -228,37 +234,46 @@ sudo find ~/ -name &quot;.Rapp.history&quot; -delete</code></pre></li>
 <p>という1行を追加する。
 追加するたびに1行追加していくのか，追加するPATHに「:」で追加していくのか，どちらが望ましいのかわからない。
 また，追加するのに，</p>
-<pre><code>vi ~/.zshenv
+<pre><code>$ vi ~/.zshenv
 </code></pre>
 <p>などを使用してもよいはず。
 最後に，</p>
-<pre><code>source ~/.zshenv</code></pre>
+<pre><code>$ source ~/.zshenv</code></pre>
 <p>を実行する。</p>
 <ul>
 <li>環境変数を確認する。</li>
 </ul>
-<pre><code>export -p</code></pre>
+<pre><code>$ export -p</code></pre>
 <p>ローカルなPATHは</p>
-<pre><code>ls -a ~/</code></pre>
+<pre><code>$ ls -a ~/</code></pre>
 <p>のどこかに書かれている。</p>
 <p>グローバルなPATHは以下で確認できる。</p>
-<pre><code>cat /etc/paths
-ls -a /etc/paths.d</code></pre>
+<pre><code>$ cat /etc/paths
+$ ls -a /etc/paths.d</code></pre>
 <p>何かをアンインストールしたときのゴミが残っている場合のみ，該当ファイルを削除してもよいと思う。</p>
+<ul>
+<li>ログインシェルをzshに変更する。</li>
+</ul>
+<pre><code>$ chsh -s /bin/zsh</code></pre>
+<ul>
+<li>ログイン中のユーザーを表示する。</li>
+</ul>
+<pre><code>$ who
+$ w</code></pre>
 <ul>
 <li>Macのモデルを確認する。</li>
 </ul>
-<pre><code>sysctl hw.model</code></pre>
+<pre><code>$ sysctl hw.model</code></pre>
 <ul>
 <li>Macのアイコンをデスクトップにコピーする。</li>
 </ul>
-<pre><code>cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/</code></pre>
+<pre><code>$ cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/</code></pre>
 <div id="macosのコマンド以外のコマンド" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> macOSのコマンド以外のコマンド<a href="5-Terminal.html#macosのコマンド以外のコマンド" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>Google Earth Studioから動画を作成する。</li>
 </ul>
-<pre><code>ffmpeg -r 30 -i Untitled_%03d.jpeg -vcodec libx264 -pix_fmt yuv420p -r 60 GoogleEarth.mp4</code></pre>
+<pre><code>$ ffmpeg -r 30 -i Untitled_%03d.jpeg -vcodec libx264 -pix_fmt yuv420p -r 60 GoogleEarth.mp4</code></pre>
 </div>
 <div id="古いmacos向けコマンド" class="section level2 hasAnchor" number="5.2">
 <h2><span class="header-section-number">5.2</span> 古いmacOS向けコマンド<a href="5-Terminal.html#古いmacos向けコマンド" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -267,15 +282,15 @@ ls -a /etc/paths.d</code></pre>
 <ul>
 <li>スタートアップチャイムを有効にする。</li>
 </ul>
-<pre><code>sudo nvram StartupMute=%00</code></pre>
+<pre><code>$ sudo nvram StartupMute=%00</code></pre>
 <ul>
 <li>スタートアップチャイムを無効にする。</li>
 </ul>
-<pre><code>sudo nvram StartupMute=%01</code></pre>
+<pre><code>$ sudo nvram StartupMute=%01</code></pre>
 <ul>
 <li>QuickLookで表示したテキストをコピー可能にする。</li>
 </ul>
-<pre><code>defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder</code></pre>
+<pre><code>$ defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder</code></pre>
 
 </div>
 </div>

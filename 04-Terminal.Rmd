@@ -6,41 +6,47 @@
 - ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。
     + 単一ファイル
 ```
-zip --delete filename.zip "*.DS_Store"
-zip --delete filename.zip "*__MACOSX*"
+$ zip --delete filename.zip "*.DS_Store"
+$ zip --delete filename.zip "*__MACOSX*"
 ```
     + 複数ファイル
 ```
-find . -name "*.zip" -exec zip --delete {} "*.DS_Store" \;
-find . -name "*.zip" -exec zip --delete {} "*__MACOSX*" \;
+$ find . -name "*.zip" -exec zip --delete {} "*.DS_Store" \;
+$ find . -name "*.zip" -exec zip --delete {} "*__MACOSX*" \;
 ```
 
 - 不可視ファイルを削除する。
     + 「.DS_Store」を削除する。
 ```
-sudo find / -name ".DS_Store" -delete
+$ sudo find / -name ".DS_Store" -delete
 # ホームディレクトリのみ
-sudo find ~/ -name ".DS_Store" -delete
+$ sudo find ~/ -name ".DS_Store" -delete
 ```
     + 「.Rapp.history」を削除する。
 ```
-sudo find / -name ".Rapp.history" -delete
+$ sudo find / -name ".Rapp.history" -delete
 # ホームディレクトリのみ
-sudo find ~/ -name ".Rapp.history" -delete
+$ sudo find ~/ -name ".Rapp.history" -delete
+```
+    + 「.Rhistory」を削除する。
+```
+$ sudo find / -name ".Rhistory" -delete
+# ホームディレクトリのみ
+$ sudo find ~/ -name ".Rhistory" -delete
 ```
 
 - ファイルの日付を変更する。
 ```
-touch -t 202005182400 filename.jpg
+$ touch -t 202005182400 filename.jpg
 ```
 
 - PATHを確認する。
 ```
-printenv PATH
+$ printenv PATH
 ```
 または
 ```
-echo $PATH
+$ echo $PATH
 ```
 
 - PATHを通す。
@@ -53,42 +59,53 @@ export PATH=$PATH:追加するPATH
 また，追加するのに，
 
 ```
-vi ~/.zshenv
+$ vi ~/.zshenv
 
 ```
 などを使用してもよいはず。
 最後に，
 ```
-source ~/.zshenv
+$ source ~/.zshenv
 ```
 を実行する。
 
 - 環境変数を確認する。
 ```
-export -p
+$ export -p
 ```
 
 ローカルなPATHは
 ```
-ls -a ~/
+$ ls -a ~/
 ```
 のどこかに書かれている。
 
 グローバルなPATHは以下で確認できる。
 ```
-cat /etc/paths
-ls -a /etc/paths.d
+$ cat /etc/paths
+$ ls -a /etc/paths.d
 ```
 何かをアンインストールしたときのゴミが残っている場合のみ，該当ファイルを削除してもよいと思う。
 
+- ログインシェルをzshに変更する。
+```
+$ chsh -s /bin/zsh
+```
+
+- ログイン中のユーザーを表示する。
+```
+$ who
+$ w
+```
+
 - Macのモデルを確認する。
 ```
-sysctl hw.model
+$ sysctl hw.model
 ```
 
 - Macのアイコンをデスクトップにコピーする。
 ```
-cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/
+$ cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/
 ```
 
 
@@ -96,7 +113,7 @@ cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/
 
 - Google Earth Studioから動画を作成する。
 ```
-ffmpeg -r 30 -i Untitled_%03d.jpeg -vcodec libx264 -pix_fmt yuv420p -r 60 GoogleEarth.mp4
+$ ffmpeg -r 30 -i Untitled_%03d.jpeg -vcodec libx264 -pix_fmt yuv420p -r 60 GoogleEarth.mp4
 ```
 
 
@@ -107,15 +124,15 @@ ffmpeg -r 30 -i Untitled_%03d.jpeg -vcodec libx264 -pix_fmt yuv420p -r 60 Google
 
 - スタートアップチャイムを有効にする。
 ```
-sudo nvram StartupMute=%00
+$ sudo nvram StartupMute=%00
 ```
 
 - スタートアップチャイムを無効にする。
 ```
-sudo nvram StartupMute=%01
+$ sudo nvram StartupMute=%01
 ```
 
 - QuickLookで表示したテキストをコピー可能にする。
 ```
-defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
+$ defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
 ```
