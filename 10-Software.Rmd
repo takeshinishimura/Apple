@@ -91,12 +91,13 @@ macOSで有益なソフトウェアのリストです。
 
 ## Touch Bar
 
-- [GitHub - billziss-gh/EnergyBar: Supercharge your Mac's Touch Bar.](https://github.com/billziss-gh/EnergyBar)
-- [GitHub - avatsaev/touchbar_nyancat: Stupid nyancat animation on your +$2k MacBook Pro's Touchbar](https://github.com/avatsaev/touchbar_nyancat)
-- [Utsire - Touch Bar Piano](https://www.utsire.com/touch-bar-piano/)
-- [GitHub - henryefranks/pac-bar: Pac-Man for the MacBook Pro Touch Bar](https://github.com/henryefranks/pac-bar)
+- [EnergyBar: Supercharge your Mac's Touch Bar.](https://github.com/billziss-gh/EnergyBar)
+- [pac-bar: Pac-Man for the MacBook Pro Touch Bar](https://github.com/henryefranks/pac-bar)
+- [touchbar_nyancat: Stupid nyancat animation on your +$2k MacBook Pro's Touchbar](https://github.com/avatsaev/touchbar_nyancat)
+- [Touch Bar Piano](https://www.utsire.com/touch-bar-piano/)
 - [TouchSwitcher app switcher for Touch Bar](https://hazeover.com/touchswitcher.html)
 - [The Original Quick Launcher for Touch Bar](http://julianthayn.com/rocket)
+- [TouchSwitcher app switcher for Touch Bar](https://hazeover.com/touchswitcher.html)
 
 
 ## その他（メモ） {#others}

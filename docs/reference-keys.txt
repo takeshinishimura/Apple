@@ -38,6 +38,7 @@ mactexのghostscriptのアンインストール
 ヒラギノを埋め込む
 texshopの設定
 参考文献
+tips-1
 R
 rのインストール
 Python
