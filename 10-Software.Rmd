@@ -15,6 +15,7 @@ macOSで有益なソフトウェアのリストです。
   + [PopClip](https://pilotmoon.com/popclip/)
     - [PopClip Extensions](http://pilotmoon.com/popclip/extensions/)
     - [PopMaker](https://brettterpstra.com/2014/05/12/popmaker-popclip-extension-generator/)
+    - 使用例：辞書 by 物書堂の場合，「mkdictionaries:///?text={query}」
   + [TextExpander](https://textexpander.com/)
 
 - 日常的に有益

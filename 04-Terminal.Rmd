@@ -108,6 +108,14 @@ $ sysctl hw.model
 $ cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/
 ```
 
+- 喋らせる。
+```
+$ say -v Kyoko 'こんにちは'
+$ say -v Yuna '안녕하세요'
+$ say -v Samantha 'Hello'
+$ say -v Anna 'Danke schön'
+```
+
 
 ## macOSのコマンド以外のコマンド
 
