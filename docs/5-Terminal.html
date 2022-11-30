@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>5 Terminalコマンド | Apple.knit</title>
   <meta name="description" content="" />
-  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.30 and GitBook 2.6.7" />
 
   <meta property="og:title" content="5 Terminalコマンド | Apple.knit" />
   <meta property="og:type" content="book" />
@@ -274,10 +274,23 @@ $ w</code></pre>
 <ul>
 <li>喋らせる。</li>
 </ul>
-<pre><code>$ say -v Kyoko &#39;こんにちは&#39;
-$ say -v Yuna &#39;안녕하세요&#39;
-$ say -v Samantha &#39;Hello&#39;
-$ say -v Anna &#39;Danke schön&#39;</code></pre>
+<pre><code>$ say -v Kyoko こんにちは
+$ say -v &#39;Kyoko (Enhanced)&#39; こんにちは
+$ say -v &#39;Ava (Premium)&#39; Hello
+$ say -v Yuna 안녕하세요
+$ say -v Anna Danke schön
+# ファイルに保存
+$ say -v &#39;Kyoko (Enhanced)&#39; -o こんにちは.m4a こんにちは
+# システム設定 → アクセシビリティ → システムの声 → 声を管理
+$ say -v &#39;?&#39;
+# 以下は一例
+Ava (Premium)       en_US    # Hello, my name is Ava. I am an American-English voice.
+Daniel              en_GB    # Hello, my name is Daniel. I am a British-English voice.
+Karen               en_AU    # Hello, my name is Karen. I am an Australian-English voice.
+Moira               en_IE    # Hello, my name is Moira. I am an Irish-English voice.
+Rishi               en_IN    # Hello, my name is Rishi. I am an Indian-English voice.
+Samantha            en_US    # Hello, my name is Samantha. I am an American-English voice.
+Tessa               en_ZA    # Hello, my name is Tessa. I am a South African-English voice.</code></pre>
 <div id="macosのコマンド以外のコマンド" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> macOSのコマンド以外のコマンド<a href="5-Terminal.html#macosのコマンド以外のコマンド" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>

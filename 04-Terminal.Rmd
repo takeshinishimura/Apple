@@ -110,10 +110,23 @@ $ cp -r /System/Library/CoreServices/CoreTypes.bundle ~/Desktop/
 
 - 喋らせる。
 ```
-$ say -v Kyoko 'こんにちは'
-$ say -v Yuna '안녕하세요'
-$ say -v Samantha 'Hello'
-$ say -v Anna 'Danke schön'
+$ say -v Kyoko こんにちは
+$ say -v 'Kyoko (Enhanced)' こんにちは
+$ say -v 'Ava (Premium)' Hello
+$ say -v Yuna 안녕하세요
+$ say -v Anna Danke schön
+# ファイルに保存
+$ say -v 'Kyoko (Enhanced)' -o こんにちは.m4a こんにちは
+# システム設定 → アクセシビリティ → システムの声 → 声を管理
+$ say -v '?'
+# 以下は一例
+Ava (Premium)       en_US    # Hello, my name is Ava. I am an American-English voice.
+Daniel              en_GB    # Hello, my name is Daniel. I am a British-English voice.
+Karen               en_AU    # Hello, my name is Karen. I am an Australian-English voice.
+Moira               en_IE    # Hello, my name is Moira. I am an Irish-English voice.
+Rishi               en_IN    # Hello, my name is Rishi. I am an Indian-English voice.
+Samantha            en_US    # Hello, my name is Samantha. I am an American-English voice.
+Tessa               en_ZA    # Hello, my name is Tessa. I am a South African-English voice.
 ```
 
 
