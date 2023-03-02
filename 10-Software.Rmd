@@ -1,29 +1,24 @@
 # Software {#Software}
 
 macOSで有益なソフトウェアのリストです。
+研究で使用するものを主に取り上げています。
 
 ## Software {#Software}
 
 ### 必須 {#essential}
 
-- バックグラウンドで動作
+- 日常的に有益
   + [Dropbox](https://www.dropbox.com/)
   + [Little Snitch](https://www.obdev.at/products/littlesnitch/)
-
-- 入力支援
   + [ATOK](https://atok.com/)
   + [PopClip](https://pilotmoon.com/popclip/)
     - [PopClip Extensions](http://pilotmoon.com/popclip/extensions/)
     - [PopMaker](https://brettterpstra.com/2014/05/12/popmaker-popclip-extension-generator/)
     - 使用例：辞書 by 物書堂の場合，「mkdictionaries:///?text={query}」
+    - [https://forum.popclip.app/t/new-features-for-making-extensions-in-popclip-2022-12/1204)
   + [TextExpander](https://textexpander.com/)
-
-- 日常的に有益
   + [Gestimer](https://apps.apple.com/us/app/gestimer-for-those-little/id990588172)
-  + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704)
-  + [Pure Paste](https://sindresorhus.com/pure-paste)
   + [SlidePilot](https://slidepilotapp.com/en/)
-  + [Bartender](https://www.macbartender.com/)
   + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834)
 
 - もし開発が終了すると困る
@@ -42,27 +37,25 @@ macOSで有益なソフトウェアのリストです。
   + [OmniFocus](https://itunes.apple.com/jp/app/omnifocus/id402835630)
   + [OmniGraffle](https://www.omnigroup.com/omnigraffle)
   + [OmniOutliner](https://www.omnigroup.com/omnioutliner)
+  + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
+  + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704)
+  + [Bartender](https://www.macbartender.com/)
   + [OBS Studio](https://obsproject.com/)
+  + [Pure Paste](https://sindresorhus.com/pure-paste)
+  + [Visual Studio Code](https://code.visualstudio.com/)
   + [VMware Fusion](http://www.vmware.com/products/fusion/overview.html)
-    - Apple silicon非対応のため，実質的に使えない
 
 
 ### 重要 {#important}
 
 - なくなると少し困る
-  + [Jedit Ω](http://www.artman21.com/jp/jeditOmega/)
   + [Scapple](https://apps.apple.com/jp/app/scapple/id568020055)
   + [HoudahGPS](https://www.houdah.com/houdahGPS/)
-  + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
   + [TeamViewer](https://www.teamviewer.com/ja/)
-  + [Transmit](https://panic.com/transmit/)
   + [EBMac](http://www31.ocn.ne.jp/~h_ishida/MacOS/Mac.html)
   + [Luna Display](https://astropad.com/product/lunadisplay/)
-  + [Duet Display](https://ja.duetdisplay.com/)
-  + [Visual Studio Code](https://code.visualstudio.com/)
   + [VLC media player](https://www.videolan.org/vlc/)
   + [HandBrake](https://handbrake.fr/)
-  + [Audacity](https://www.audacityteam.org/)
   + [mmhmm](https://www.mmhmm.app/)
   + [FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)
   + [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
@@ -103,6 +96,7 @@ macOSで有益なソフトウェアのリストです。
 
 ## その他（メモ） {#others}
 
+- [macOS Sierra (10.12) で Photoshop CS6 / Illustrator CS6 を使う](https://doratex.hatenablog.jp/entry/20160921/1474401468)
 - [EBView](http://ebview.sourceforge.net/home-ja.html)
 - [UNIXで電子辞書をしゃぶりつくそう](http://hp.vector.co.jp/authors/VA000022/unixdic/)
 - [対訳君＆CheckAlignユーザーズサイト](http://www.mcl-corp.jp/usersite/us_index.htm)
@@ -111,10 +105,5 @@ macOSで有益なソフトウェアのリストです。
 - [名作フリーソフトを訪ねて](https://xtech.nikkei.com/it/pc/article/special/20081024/1009118/)
 - [“一芸”オンラインソフト](https://xtech.nikkei.com/it/pc/article/NPC/20071108/286796/)
 - [DVD 関連のフリーソフト](https://www.gigafree.net/media/ripping/)
-
-
-## Tips {#tips}
-
-- [macOS Sierra (10.12) で Photoshop CS6 / Illustrator CS6 を使う](https://doratex.hatenablog.jp/entry/20160921/1474401468)
 
 Mac OS X 10.4 (Tiger) に標準で登録されているDashboard WidgetのWeatherでは，「City, Sate or ZIP Code:」の欄でreturnキーを押さなければ接続されない。

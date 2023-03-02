@@ -179,9 +179,9 @@ $ # sudo kanji-config-updmap-sys auto # morisawa になった
 「設定プロファイル」から「upTeX (ptex2pdf)」を選択する。
 
 ```
-defaults write TeXShop FixLineNumberScroll NO
-defaults write TeXShop SourceScrollElasticity NO
-defaults write TeXShop FixPreviewBlur YES
+$ defaults write TeXShop FixLineNumberScroll NO
+$ defaults write TeXShop SourceScrollElasticity NO
+$ defaults write TeXShop FixPreviewBlur YES
 ```
 
 ### 参考文献
