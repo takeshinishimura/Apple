@@ -11,17 +11,17 @@ macOSで有益なソフトウェアのリストです。
   + [Dropbox](https://www.dropbox.com/)
   + [Little Snitch](https://www.obdev.at/products/littlesnitch/)
   + [ATOK](https://atok.com/)
+  + [Bartender](https://www.macbartender.com/)
   + [PopClip](https://pilotmoon.com/popclip/)
     - [PopClip Extensions](http://pilotmoon.com/popclip/extensions/)
-    - [PopMaker](https://brettterpstra.com/2014/05/12/popmaker-popclip-extension-generator/)
-    - 使用例：辞書 by 物書堂の場合，「mkdictionaries:///?text={query}」
-    - [https://forum.popclip.app/t/new-features-for-making-extensions-in-popclip-2022-12/1204)
+    - [GitHub - takeshinishimura/PopClip-Extensions](https://github.com/takeshinishimura/PopClip-Extensions)
+    - [GitHub - hirakujira/ChatGPT-Grammar-Check-PopClip-Extension](https://github.com/hirakujira/ChatGPT-Grammar-Check-PopClip-Extension)
   + [TextExpander](https://textexpander.com/)
   + [Gestimer](https://apps.apple.com/us/app/gestimer-for-those-little/id990588172)
   + [SlidePilot](https://slidepilotapp.com/en/)
   + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834)
 
-- もし開発が終了すると困る
+- 研究に必須
   + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
   + [Homebrew](https://brew.sh/)
   + [R](https://cran.r-project.org/)
@@ -34,12 +34,13 @@ macOSで有益なソフトウェアのリストです。
     - Renaming Format: Format for all Types except Patents: "{%a }{(%y) }{%t}"
     - Add suffix when authors are omitted " et al."
   + [Scrivener](https://itunes.apple.com/jp/app/scrivener/id418889511)
+
+- その他
   + [OmniFocus](https://itunes.apple.com/jp/app/omnifocus/id402835630)
   + [OmniGraffle](https://www.omnigroup.com/omnigraffle)
   + [OmniOutliner](https://www.omnigroup.com/omnioutliner)
   + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
   + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704)
-  + [Bartender](https://www.macbartender.com/)
   + [OBS Studio](https://obsproject.com/)
   + [Pure Paste](https://sindresorhus.com/pure-paste)
   + [Visual Studio Code](https://code.visualstudio.com/)
@@ -48,7 +49,7 @@ macOSで有益なソフトウェアのリストです。
 
 ### 重要 {#important}
 
-- なくなると少し困る
+- なくなると困る
   + [Scapple](https://apps.apple.com/jp/app/scapple/id568020055)
   + [HoudahGPS](https://www.houdah.com/houdahGPS/)
   + [TeamViewer](https://www.teamviewer.com/ja/)
@@ -58,7 +59,6 @@ macOSで有益なソフトウェアのリストです。
   + [HandBrake](https://handbrake.fr/)
   + [mmhmm](https://www.mmhmm.app/)
   + [FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)
-  + [CheatSheet](https://www.mediaatelier.com/CheatSheet/)
 
 
 ## お気に入りのデベロッパーサイト {#fav_developer_site}

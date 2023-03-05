@@ -1,7 +1,17 @@
 # Terminalコマンド {#Terminal}
 
-以下のコマンドはmacOS Monterey向けである。
+以下のコマンドはmacOS Ventura向けである。
 古いmacOSでも使えるものが多いが，細かい点が変わったりしている（デフォルトがbashからzshに変わった）。
+
+- MacBook Proを開いたときに起動しないようにする。
+```
+$ sudo nvram AutoBoot=%00
+```
+
+- MacBook Proを開いたときに起動するようにする（元に戻す）。
+```
+$ sudo nvram AutoBoot=%03
+```
 
 - ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。
     + 単一ファイル
@@ -148,7 +158,7 @@ $ ffmpeg -r 30 -i Untitled_%03d.jpeg -vcodec libx264 -pix_fmt yuv420p -r 60 Goog
 $ sudo nvram StartupMute=%00
 ```
 
-- スタートアップチャイムを無効にする。
+- スタートアップチャイムを無効にする（元に戻す）。
 ```
 $ sudo nvram StartupMute=%01
 ```

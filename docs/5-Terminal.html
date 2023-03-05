@@ -186,8 +186,16 @@
             <section class="normal" id="section-">
 <div id="Terminal" class="section level1 hasAnchor" number="5">
 <h1><span class="header-section-number">5</span> Terminalコマンド<a href="5-Terminal.html#Terminal" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>以下のコマンドはmacOS Monterey向けである。
+<p>以下のコマンドはmacOS Ventura向けである。
 古いmacOSでも使えるものが多いが，細かい点が変わったりしている（デフォルトがbashからzshに変わった）。</p>
+<ul>
+<li>MacBook Proを開いたときに起動しないようにする。</li>
+</ul>
+<pre><code>$ sudo nvram AutoBoot=%00</code></pre>
+<ul>
+<li>MacBook Proを開いたときに起動するようにする（元に戻す）。</li>
+</ul>
+<pre><code>$ sudo nvram AutoBoot=%03</code></pre>
 <ul>
 <li>ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。
 <ul>
@@ -306,7 +314,7 @@ Tessa               en_ZA    # Hello, my name is Tessa. I am a South African-Eng
 </ul>
 <pre><code>$ sudo nvram StartupMute=%00</code></pre>
 <ul>
-<li>スタートアップチャイムを無効にする。</li>
+<li>スタートアップチャイムを無効にする（元に戻す）。</li>
 </ul>
 <pre><code>$ sudo nvram StartupMute=%01</code></pre>
 <ul>
