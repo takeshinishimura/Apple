@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>5 Terminalコマンド | Apple.knit</title>
   <meta name="description" content="" />
-  <meta name="generator" content="bookdown 0.32 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
   <meta property="og:title" content="5 Terminalコマンド | Apple.knit" />
   <meta property="og:type" content="book" />
@@ -238,16 +238,17 @@ $ sudo find ~/ -name &quot;.Rhistory&quot; -delete</code></pre></li>
 <pre><code>$ echo $PATH</code></pre>
 <ul>
 <li>PATHを通す。
-.zshenv（または，~/.bash_profileなど）に</li>
+.zshenv（または，~/.bash_profileなど）といったファイルに</li>
 </ul>
 <pre><code>export PATH=$PATH:追加するPATH</code></pre>
 <p>という1行を追加する。
 追加するたびに1行追加していくのか，追加するPATHに「:」で追加していくのか，どちらが望ましいのかわからない。
-また，追加するのに，</p>
+追加にはviを使うことができる。</p>
 <pre><code>$ vi ~/.zshenv
 </code></pre>
-<p>などを使用してもよいはず。
-最後に，</p>
+<p>次のようにやってもよいはずだが，こうした説明をしているサイトはあまりない。なぜかわからない。</p>
+<pre><code>echo &#39;export PATH=$PATH:~/foo/bar&#39; &gt;&gt; ~/.zshenv</code></pre>
+<p>ファイルを編集したら，</p>
 <pre><code>$ source ~/.zshenv</code></pre>
 <p>を実行する。</p>
 <ul>
