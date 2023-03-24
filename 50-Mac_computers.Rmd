@@ -2,10 +2,10 @@
 
 ## Laptop
 
-- [MacBook Pro (14-inch, 2021)](https://support.apple.com/kb/SP854) <- macOS Monterey
+- [MacBook Pro (14-inch, 2021)](https://support.apple.com/kb/SP854) <- macOS Ventura
 - ~~[MacBook Air (M1, 2020)](https://support.apple.com/kb/SP825) <- macOS Big Sur~~
-- [MacBook Pro (13-inch, M1, 2020)](https://support.apple.com/kb/SP824) <- macOS Monterey
-- [MacBook Air (Retina, 13-inch, 2020)](https://support.apple.com/kb/SP813) <- macOS Monterey
+- [MacBook Pro (13-inch, M1, 2020)](https://support.apple.com/kb/SP824) <- macOS Ventura
+- [MacBook Air (Retina, 13-inch, 2020)](https://support.apple.com/kb/SP813) <- macOS Ventura
 - ~~[MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)](https://support.apple.com/kb/SP755) <- macOS Monterey~~- [MacBook Air (11-inch, Early 2015)](https://support.apple.com/kb/SP713) <- macOS Monterey- [MacBook Pro (Retina, 13-inch, Late 2013)](https://support.apple.com/kb/SP691) <- macOS Big Sur- [MacBook Air (13-inch, Mid 2012)](https://support.apple.com/kb/SP670) <- macOS Catalina- [MacBook Pro (13-inch, Late 2011)](https://support.apple.com/kb/SP645) <- macOS Mojave- [MacBook Pro (13-inch, Mid 2009)](https://support.apple.com/kb/SP541) <- OS X El Capitan- iBook (FireWire SE) <- Mac OS X 10.3 (Panther)
 
 ### List
@@ -26,10 +26,10 @@
 
 ## iPads
 
-- [iPad Air (5th generation)](https://support.apple.com/kb/SP866) (iPad13,16) <- iPadOS 16.1
-- [iPad mini (6th generation)](https://support.apple.com/kb/SP850) (iPad14,2) <- iPadOS 16.1
-- ~~[iPad Air (4th generation)](https://support.apple.com/kb/SP828) (iPad13,1) <- iPadOS 16.1~~
-- [iPad Pro (9.7-inch)](https://support.apple.com/kb/SP739) (iPad6,4) <- iPadOS 16.1
+- [iPad Air (5th generation)](https://support.apple.com/kb/SP866) (iPad13,16) <- iPadOS 16.4
+- [iPad mini (6th generation)](https://support.apple.com/kb/SP850) (iPad14,2) <- iPadOS 16.4
+- [iPad Air (4th generation)](https://support.apple.com/kb/SP828) (iPad13,1) <- iPadOS 16.4
+- ~~[iPad Pro (9.7-inch)](https://support.apple.com/kb/SP739) (iPad6,4) <- iPadOS 16.4~~
 - ~~[iPad mini 3](https://support.apple.com/kb/SP709) (iPad4,7) <- iPadOS 12.5.5~~
 - [iPad Air](https://support.apple.com/kb/SP692) (iPad4,1) <- iPadOS 12.5.5
 - [iPad (3rd generation)](https://support.apple.com/kb/SP647) (iPad3,1) <- iOS 9.3.5

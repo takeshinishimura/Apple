@@ -197,17 +197,16 @@
 </ul>
 <pre><code>$ sudo nvram AutoBoot=%03</code></pre>
 <ul>
-<li>ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。
-<ul>
-<li>単一ファイル</li>
+<li>ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。</li>
 </ul>
-<pre><code>$ zip --delete filename.zip &quot;*.DS_Store&quot;
-$ zip --delete filename.zip &quot;*__MACOSX*&quot;</code></pre>
+<pre><code># 単一ファイル
+$ zip --delete filename.zip &quot;*.DS_Store&quot;
+$ zip --delete filename.zip &quot;*__MACOSX*&quot;
+
+# 複数ファイル
+$ find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*.DS_Store&quot; \;
+$ find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*__MACOSX*&quot; \;</code></pre>
 <ul>
-<li>複数ファイル</li>
-</ul>
-<pre><code>$ find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*.DS_Store&quot; \;
-$ find . -name &quot;*.zip&quot; -exec zip --delete {} &quot;*__MACOSX*&quot; \;</code></pre></li>
 <li>不可視ファイルを削除する。
 <ul>
 <li>「.DS_Store」を削除する。</li>

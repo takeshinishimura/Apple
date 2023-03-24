@@ -15,6 +15,9 @@ TeXユーザーはわからない人が何がわからないのかがわから�
 
 知る限り，[MacTeX をおすすめできる場合とそうでない場合（私見）](https://blog.wtsnjp.com/2020/07/07/about-mactex/) が最も親切な説明。
 
+以下の2つの方法の2番目がおすすめ。
+自信がない場合は，1の方を強く推奨する。
+
 1. [MacTeX](https://www.tug.org/mactex/) のインストーラーを使って，TeXLive-2022のみをインストールする。Ghostscriptはインストールしない方がよい。
 
 1. [Installing TeX Live over the Internet](https://www.tug.org/texlive/acquire-netinstall.html) から，
@@ -36,7 +39,7 @@ $ cat /usr/local/texlive/2022/texmf.cnf
 ## Ghostscriptのインストール
 
 Homebrewを使って，Ghostscriptをインストールする。
-
+まず，Homebrewをインストールする。
 ```
 $ cd /opt
 $ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
@@ -53,7 +56,7 @@ PATHを通す。
 $ export PATH=$PATH:/opt/homebrew/bin
 ```
 
-Ghostscriptをインストールする。
+次に，Ghostscriptをインストールする。
 ```
 $ brew install ghostscript
 ```
@@ -132,6 +135,8 @@ $ sudo rm /usr/local/share/man/man1/ps2ascii.1
 $ sudo rm /usr/local/share/man/man1/ps2epsi.1
 $ sudo rm /usr/local/share/man/man1/ps2pdf.1
 $ sudo rm /usr/local/share/man/man1/ps2pdf12.1
+$ sudo rm /usr/local/share/man/man1/ps2pdf13.1
+$ sudo rm /usr/local/share/man/man1/ps2pdf14.1
 $ sudo rm /usr/local/share/man/man1/ps2pdfwr.1
 $ sudo rm /usr/local/share/man/man1/ps2ps.1
 $ sudo rm /usr/local/share/man/man1/wftopfa.1
@@ -146,10 +151,33 @@ $ brew install ghostscript
 ```
 
 ゴミが残っている場合，インストールが完了しない。
-警告に従って，修正すればよいが，よくわからなければ以下を実行すればよいはず。
+リンクで失敗する。
+慎重になりたければ，以下を実行し，警告に従って，ファイルを削除するなどする。
+
+```
+$ brew link ghostscript
+```
+
+よくわからなければ以下を実行すればよい。
 
 ```
 $ brew link --overwrite ghostscript
+```
+
+うまくいったかどうかは，以下のコマンドを実行して確認できる。
+
+```
+$ gs -version
+```
+
+以下のように表示されれば，うまくいっていない。
+```
+zsh: command not found: gs
+```
+以下のように表示されれば，うまくいっている。
+```
+GPL Ghostscript 10.00.0 (2022-09-21)
+Copyright (C) 2022 Artifex Software, Inc.  All rights reserved.
 ```
 
 

@@ -197,6 +197,8 @@ TeXユーザーはわからない人が何がわからないのかがわから�
 わからない人は何がわからないのかを説明できない。
 すなわち，地獄。</p>
 <p>知る限り，<a href="https://blog.wtsnjp.com/2020/07/07/about-mactex/">MacTeX をおすすめできる場合とそうでない場合（私見）</a> が最も親切な説明。</p>
+<p>以下の2つの方法の2番目がおすすめ。
+自信がない場合は，1の方を強く推奨する。</p>
 <ol style="list-style-type: decimal">
 <li><p><a href="https://www.tug.org/mactex/">MacTeX</a> のインストーラーを使って，TeXLive-2022のみをインストールする。Ghostscriptはインストールしない方がよい。</p></li>
 <li><p><a href="https://www.tug.org/texlive/acquire-netinstall.html">Installing TeX Live over the Internet</a> から，
@@ -213,7 +215,8 @@ $ cat /usr/local/texlive/2022/texmf.cnf</code></pre>
 </div>
 <div id="ghostscriptのインストール" class="section level2 hasAnchor" number="8.2">
 <h2><span class="header-section-number">8.2</span> Ghostscriptのインストール<a href="8-LaTeX.html#ghostscriptのインストール" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Homebrewを使って，Ghostscriptをインストールする。</p>
+<p>Homebrewを使って，Ghostscriptをインストールする。
+まず，Homebrewをインストールする。</p>
 <pre><code>$ cd /opt
 $ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew</code></pre>
 <p>Intelの場合は以下を実行する。</p>
@@ -221,7 +224,7 @@ $ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C 
 $ # /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
 <p>PATHを通す。</p>
 <pre><code>$ export PATH=$PATH:/opt/homebrew/bin</code></pre>
-<p>Ghostscriptをインストールする。</p>
+<p>次に，Ghostscriptをインストールする。</p>
 <pre><code>$ brew install ghostscript</code></pre>
 <p>無事にインストールできたかを確認したければ，</p>
 <pre><code>$ gs -version</code></pre>
@@ -290,6 +293,8 @@ $ sudo rm /usr/local/share/man/man1/ps2ascii.1
 $ sudo rm /usr/local/share/man/man1/ps2epsi.1
 $ sudo rm /usr/local/share/man/man1/ps2pdf.1
 $ sudo rm /usr/local/share/man/man1/ps2pdf12.1
+$ sudo rm /usr/local/share/man/man1/ps2pdf13.1
+$ sudo rm /usr/local/share/man/man1/ps2pdf14.1
 $ sudo rm /usr/local/share/man/man1/ps2pdfwr.1
 $ sudo rm /usr/local/share/man/man1/ps2ps.1
 $ sudo rm /usr/local/share/man/man1/wftopfa.1
@@ -298,8 +303,18 @@ $ sudo rm -rf /usr/local/share/doc/ghostscript</code></pre>
 <p><a href="https://www.tug.org/mactex/">MacTeX</a> のGhostscriptをアンインストールした後に，Homebrewを使って，Ghostscriptをインストールする。</p>
 <pre><code>$ brew install ghostscript</code></pre>
 <p>ゴミが残っている場合，インストールが完了しない。
-警告に従って，修正すればよいが，よくわからなければ以下を実行すればよいはず。</p>
+リンクで失敗する。
+慎重になりたければ，以下を実行し，警告に従って，ファイルを削除するなどする。</p>
+<pre><code>$ brew link ghostscript</code></pre>
+<p>よくわからなければ以下を実行すればよい。</p>
 <pre><code>$ brew link --overwrite ghostscript</code></pre>
+<p>うまくいったかどうかは，以下のコマンドを実行して確認できる。</p>
+<pre><code>$ gs -version</code></pre>
+<p>以下のように表示されれば，うまくいっていない。</p>
+<pre><code>zsh: command not found: gs</code></pre>
+<p>以下のように表示されれば，うまくいっている。</p>
+<pre><code>GPL Ghostscript 10.00.0 (2022-09-21)
+Copyright (C) 2022 Artifex Software, Inc.  All rights reserved.</code></pre>
 </div>
 <div id="ヒラギノを埋め込む" class="section level2 hasAnchor" number="8.4">
 <h2><span class="header-section-number">8.4</span> ヒラギノを埋め込む<a href="8-LaTeX.html#ヒラギノを埋め込む" class="anchor-section" aria-label="Anchor link to header"></a></h2>

@@ -14,13 +14,13 @@ $ sudo nvram AutoBoot=%03
 ```
 
 - ZIPファイルから「.DS_Store」と「__MACOSX」を削除する。
-    + 単一ファイル
+
 ```
+# 単一ファイル
 $ zip --delete filename.zip "*.DS_Store"
 $ zip --delete filename.zip "*__MACOSX*"
-```
-    + 複数ファイル
-```
+
+# 複数ファイル
 $ find . -name "*.zip" -exec zip --delete {} "*.DS_Store" \;
 $ find . -name "*.zip" -exec zip --delete {} "*__MACOSX*" \;
 ```

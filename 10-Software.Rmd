@@ -26,6 +26,7 @@ macOSで有益なソフトウェアのリストです。
   + [Homebrew](https://brew.sh/)
   + [R](https://cran.r-project.org/)
   + [RStudio](https://www.rstudio.com/)
+  + [Visual Studio Code](https://code.visualstudio.com/)
   + [Zotero](https://www.zotero.org/)
     - [Papers](http://www.mekentosj.com/papers/)の代わりとして使い始めた。
     - Source Folder for Attaching New Files: ~/Dropbox/Zotero
@@ -43,7 +44,6 @@ macOSで有益なソフトウェアのリストです。
   + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704)
   + [OBS Studio](https://obsproject.com/)
   + [Pure Paste](https://sindresorhus.com/pure-paste)
-  + [Visual Studio Code](https://code.visualstudio.com/)
   + [VMware Fusion](http://www.vmware.com/products/fusion/overview.html)
 
 
