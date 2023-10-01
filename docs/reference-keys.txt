@@ -13,7 +13,8 @@ en-dash-とem-dash-の入力方法
 tips
 隠しファイルを表示する
 InitialSetting
-システム環境設定
+システム環境設定macos-sonoma
+システム環境設定古いmacos
 finder環境設定
 テキストエディット環境設定
 safari環境設定
