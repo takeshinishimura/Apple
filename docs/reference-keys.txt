@@ -28,7 +28,6 @@ macos
 Software
 essential
 important
-fav_developer_site
 fonts
 touch-bar
 others

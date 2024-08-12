@@ -7,71 +7,74 @@ macOSで有益なソフトウェアのリストです。
 
 ### 必須 {#essential}
 
-- 日常的に有益
+- 非常に有益
   + [Dropbox](https://www.dropbox.com/)
   + [Little Snitch](https://www.obdev.at/products/littlesnitch/)
   + [ATOK](https://atok.com/)
-  + [Bartender](https://www.macbartender.com/)
   + [PopClip](https://pilotmoon.com/popclip/)
     - [PopClip Extensions](http://pilotmoon.com/popclip/extensions/)
     - [GitHub - takeshinishimura/PopClip-Extensions](https://github.com/takeshinishimura/PopClip-Extensions)
     - [GitHub - hirakujira/ChatGPT-Grammar-Check-PopClip-Extension](https://github.com/hirakujira/ChatGPT-Grammar-Check-PopClip-Extension)
-  + [TextExpander](https://textexpander.com/)
-  + [Gestimer](https://apps.apple.com/us/app/gestimer-for-those-little/id990588172)
-  + [SlidePilot](https://slidepilotapp.com/en/)
-  + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834)
-
-- 研究に必須
-  + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
   + [Homebrew](https://brew.sh/)
+  + [TextExpander](https://textexpander.com/)
+  + [Ice](https://github.com/jordanbaird/Ice)
+    - [Bartender](https://www.macbartender.com/) の代替
+    - [Hidden Bar](https://apps.apple.com/jp/app/hidden-bar/id1452453066) の代替
+  + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704)
+  + [Gestimer](https://apps.apple.com/us/app/gestimer-for-those-little/id990588172)
+  + [NotchNook](https://lo.cafe/notchnook)
+  + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
+  + [Visual Studio Code](https://code.visualstudio.com/)
   + [R](https://cran.r-project.org/)
   + [RStudio](https://www.rstudio.com/)
-  + [Visual Studio Code](https://code.visualstudio.com/)
+  + [Positron](https://github.com/posit-dev/positron)
   + [Zotero](https://www.zotero.org/)
-    - [Papers](http://www.mekentosj.com/papers/)の代わりとして使い始めた。
+    - [Papers](http://www.mekentosj.com/papers/) の代替
     - Source Folder for Attaching New Files: ~/Dropbox/Zotero
     - Location of Files: ~/Dropbox/Zotero
     - Use subfolder defined by "/%T/%w/%y"
     - Renaming Format: Format for all Types except Patents: "{%a }{(%y) }{%t}"
     - Add suffix when authors are omitted " et al."
   + [Scrivener](https://itunes.apple.com/jp/app/scrivener/id418889511)
+  + [Scapple](https://apps.apple.com/jp/app/scapple/id568020055)
+  + [ChatGPT](https://openai.com/chatgpt)
+  + [Whisper Transcription](https://apps.apple.com/jp/app/whisper-transcription/id1668083311)
+  + [Discord](https://discord.com/)
+  + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834)
 
-- その他
+- 有益
   + [OmniFocus](https://itunes.apple.com/jp/app/omnifocus/id402835630)
   + [OmniGraffle](https://www.omnigroup.com/omnigraffle)
   + [OmniOutliner](https://www.omnigroup.com/omnioutliner)
   + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
-  + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704)
+  + [TeamViewer](https://www.teamviewer.com/ja/)
   + [OBS Studio](https://obsproject.com/)
-  + [Pure Paste](https://sindresorhus.com/pure-paste)
+  + [mmhmm](https://www.mmhmm.app/)
+  + [Camo](https://reincubate.com/camo/)
   + [VMware Fusion](http://www.vmware.com/products/fusion/overview.html)
-
+  + [Pure Paste](https://sindresorhus.com/pure-paste)
+  + [Mapture](https://apps.apple.com/app/mapture/id1671995907)
 
 ### 重要 {#important}
 
 - なくなると困る
-  + [Scapple](https://apps.apple.com/jp/app/scapple/id568020055)
-  + [HoudahGPS](https://www.houdah.com/houdahGPS/)
-  + [TeamViewer](https://www.teamviewer.com/ja/)
+  + ~~[HoudahGPS](https://www.houdah.com/houdahGPS/)~~
   + [EBMac](http://www31.ocn.ne.jp/~h_ishida/MacOS/Mac.html)
   + [Luna Display](https://astropad.com/product/lunadisplay/)
-  + [VLC media player](https://www.videolan.org/vlc/)
+  + [LosslessCut](https://github.com/mifi/lossless-cut)
   + [HandBrake](https://handbrake.fr/)
-  + [mmhmm](https://www.mmhmm.app/)
+  + [VLC media player](https://www.videolan.org/vlc/)
   + [FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)
 
-
-## お気に入りのデベロッパーサイト {#fav_developer_site}
-
-- [teatimelogic](http://www.teatimelogic.com/)
-- [Sindre Sorhus](https://sindresorhus.com/apps)
-- [Adobe Labs](http://labs.macromedia.com/)
-- [kuler](http://kuler.adobe.com/)
-
+- 開発終了したため困っている
+  + [SlidePilot](https://slidepilotapp.com/en/)
+  + [Pro Mouse](https://apps.apple.com/jp/app/pro-mouse/id1505869474)
 
 ## フォント {#fonts}
 
-- [Font Awesome](https://fontawesome.com/) # TeXで使うなら，[Font Awesome 5](https://fontawesome.com/v5/download)と[CTAN: Package fontawesome5](https://www.ctan.org/pkg/fontawesome5)
+- [Font Awesome](https://fontawesome.com/)
+  + [Font Awesome 5](https://fontawesome.com/v5/download) #TeXで使うなら
+  + [CTAN: Package fontawesome5](https://www.ctan.org/pkg/fontawesome5) #TeXで使うなら
 - [Source Han Serif / 源ノ明朝](https://github.com/adobe-fonts/source-han-serif)
 - [Source Han Sans / 源ノ角ゴシック](https://github.com/adobe-fonts/source-han-sans)
 - [Source Han Mono / 源ノ等幅](https://github.com/adobe-fonts/source-han-mono)
@@ -79,7 +82,8 @@ macOSで有益なソフトウェアのリストです。
 - [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans)
 - [Morisawa BIZ UDMincho](https://github.com/googlefonts/morisawa-biz-ud-mincho/)
 - [Morisawa BIZ UDGothic](https://github.com/googlefonts/morisawa-biz-ud-gothic/)
-- [IBM Plex Sans JP](https://github.com/IBM/plex/releases/tag/v5.2.1)
+- [Morisawa Desktop Manager](https://morisawafonts.com/mypage/dm/)
+- [IBM Plex Sans JP](https://github.com/IBM/plex)
 - [機械彫刻用標準書体フォント](https://font.kim/)
 
 
