@@ -26,8 +26,6 @@ macosのコマンド以外のコマンド
 古いmacos向けコマンド
 macos
 Software
-essential
-important
 fonts
 touch-bar
 others

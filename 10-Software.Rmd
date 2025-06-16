@@ -5,29 +5,55 @@ macOSで有益なソフトウェアのリストです。
 
 ## Software {#Software}
 
-### 必須 {#essential}
-
-- 非常に有益
-  + [Dropbox](https://www.dropbox.com/)
-  + [Little Snitch](https://www.obdev.at/products/littlesnitch/)
+- 必須
+  + [Airtime](https://www.airtimetools.com/)
+    + [mmhmm](https://www.mmhmm.app/) の後継
+  + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704)
   + [ATOK](https://atok.com/)
+  + [Camo](https://reincubate.com/camo/)
+  + [ChatGPT](https://openai.com/chatgpt)
+  + [Discord](https://discord.com/)
+  + [Dropbox](https://www.dropbox.com/)
+    - [Dropboxインストーラーの直リン](https://www.dropbox.com/downloading?type=full)
+  + [EBMac](http://www31.ocn.ne.jp/~h_ishida/MacOS/Mac.html)
+  + ~~[FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)~~
+  + [Gestimer 2](https://apps.apple.com/jp/app/gestimer-2/id6447125648)
+    - [Gestimer](https://apps.apple.com/us/app/gestimer-for-those-little/id990588172) の後継
+  + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
+  + [HandBrake](https://handbrake.fr/)
+  + [Homebrew](https://brew.sh/)
+  + [Ice](https://github.com/jordanbaird/Ice)
+    - [Bartender](https://www.macbartender.com/) の代替
+    - [Hidden Bar](https://apps.apple.com/jp/app/hidden-bar/id1452453066) の代替
+  + [Little Snitch](https://www.obdev.at/products/littlesnitch/)
+  + [LosslessCut](https://github.com/mifi/lossless-cut)
+  + [Luna Display](https://astropad.com/product/lunadisplay/)
+  + [Mapture](https://apps.apple.com/app/mapture/id1671995907)
+  + [NotchNook](https://lo.cafe/notchnook)
+  + [OBS Studio](https://obsproject.com/)
+  + [OmniFocus](https://itunes.apple.com/jp/app/omnifocus/id402835630)
+  + [OmniGraffle](https://www.omnigroup.com/omnigraffle)
+  + [OmniOutliner](https://www.omnigroup.com/omnioutliner)
+  + [OwlOCR](https://apps.apple.com/jp/app/owlocr/id6462355119)
   + [PopClip](https://pilotmoon.com/popclip/)
     - [PopClip Extensions](http://pilotmoon.com/popclip/extensions/)
     - [GitHub - takeshinishimura/PopClip-Extensions](https://github.com/takeshinishimura/PopClip-Extensions)
     - [GitHub - hirakujira/ChatGPT-Grammar-Check-PopClip-Extension](https://github.com/hirakujira/ChatGPT-Grammar-Check-PopClip-Extension)
-  + [Homebrew](https://brew.sh/)
-  + [TextExpander](https://textexpander.com/)
-  + [Ice](https://github.com/jordanbaird/Ice)
-    - [Bartender](https://www.macbartender.com/) の代替
-    - [Hidden Bar](https://apps.apple.com/jp/app/hidden-bar/id1452453066) の代替
-  + [Amphetamine](https://apps.apple.com/jp/app/amphetamine/id937984704)
-  + [Gestimer](https://apps.apple.com/us/app/gestimer-for-those-little/id990588172)
-  + [NotchNook](https://lo.cafe/notchnook)
-  + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
-  + [Visual Studio Code](https://code.visualstudio.com/)
+  + [Positron](https://github.com/posit-dev/positron)
+  + [Pure Paste](https://sindresorhus.com/pure-paste)
   + [R](https://cran.r-project.org/)
   + [RStudio](https://www.rstudio.com/)
-  + [Positron](https://github.com/posit-dev/positron)
+  + [Scapple](https://apps.apple.com/jp/app/scapple/id568020055)
+  + [Scrivener](https://itunes.apple.com/jp/app/scrivener/id418889511)
+  + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834)
+  + [TeamViewer](https://www.teamviewer.com/ja/)
+  + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
+  + [TextExpander](https://textexpander.com/)
+  + [Visual Studio Code](https://code.visualstudio.com/)
+    - Pathを通す → [Configure the path with VS Code](https://code.visualstudio.com/docs/setup/mac#_configure-the-path-with-vs-code) 
+  + [VLC media player](https://www.videolan.org/vlc/)
+  + [VMware Fusion](http://www.vmware.com/products/fusion/overview.html)
+  + [Whisper Transcription](https://apps.apple.com/jp/app/whisper-transcription/id1668083311)
   + [Zotero](https://www.zotero.org/)
     - [Papers](http://www.mekentosj.com/papers/) の代替
     - Source Folder for Attaching New Files: ~/Dropbox/Zotero
@@ -35,38 +61,9 @@ macOSで有益なソフトウェアのリストです。
     - Use subfolder defined by "/%T/%w/%y"
     - Renaming Format: Format for all Types except Patents: "{%a }{(%y) }{%t}"
     - Add suffix when authors are omitted " et al."
-  + [Scrivener](https://itunes.apple.com/jp/app/scrivener/id418889511)
-  + [Scapple](https://apps.apple.com/jp/app/scapple/id568020055)
-  + [ChatGPT](https://openai.com/chatgpt)
-  + [Whisper Transcription](https://apps.apple.com/jp/app/whisper-transcription/id1668083311)
-  + [Discord](https://discord.com/)
-  + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834)
-
-- 有益
-  + [OmniFocus](https://itunes.apple.com/jp/app/omnifocus/id402835630)
-  + [OmniGraffle](https://www.omnigroup.com/omnigraffle)
-  + [OmniOutliner](https://www.omnigroup.com/omnioutliner)
-  + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
-  + [TeamViewer](https://www.teamviewer.com/ja/)
-  + [OBS Studio](https://obsproject.com/)
-  + [mmhmm](https://www.mmhmm.app/)
-  + [Camo](https://reincubate.com/camo/)
-  + [VMware Fusion](http://www.vmware.com/products/fusion/overview.html)
-  + [Pure Paste](https://sindresorhus.com/pure-paste)
-  + [Mapture](https://apps.apple.com/app/mapture/id1671995907)
-
-### 重要 {#important}
-
-- なくなると困る
-  + ~~[HoudahGPS](https://www.houdah.com/houdahGPS/)~~
-  + [EBMac](http://www31.ocn.ne.jp/~h_ishida/MacOS/Mac.html)
-  + [Luna Display](https://astropad.com/product/lunadisplay/)
-  + [LosslessCut](https://github.com/mifi/lossless-cut)
-  + [HandBrake](https://handbrake.fr/)
-  + [VLC media player](https://www.videolan.org/vlc/)
-  + [FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)
 
 - 開発終了したため困っている
+  + ~~[HoudahGPS](https://www.houdah.com/houdahGPS/)~~
   + [SlidePilot](https://slidepilotapp.com/en/)
   + [Pro Mouse](https://apps.apple.com/jp/app/pro-mouse/id1505869474)
 
