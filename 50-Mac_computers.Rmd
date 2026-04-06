@@ -2,16 +2,18 @@
 
 ## Laptop
 
-- [MacBook Pro (14-inch, 2021)](https://support.apple.com/kb/SP854) <- macOS Sequoia
+- [MacBook Neo (13-inch, A18 Pro)](https://support.apple.com/en-us/126322) <- macOS Tahoe
+- [MacBook Pro (14-inch, M5 Max, 2026)](https://support.apple.com/en-us/126318) <- macOS Tahoe
+- [MacBook Pro (14-inch, 2021)](https://support.apple.com/kb/SP854) <- macOS Tahoe
 - ~~[MacBook Air (M1, 2020)](https://support.apple.com/kb/SP825) <- macOS Big Sur~~
-- [MacBook Pro (13-inch, M1, 2020)](https://support.apple.com/kb/SP824) <- macOS Sequoia
+- ~~[MacBook Pro (13-inch, M1, 2020)](https://support.apple.com/kb/SP824) <- macOS Tahoe~~
 - ~~[MacBook Air (Retina, 13-inch, 2020)](https://support.apple.com/kb/SP813) <- macOS Ventura~~
 - ~~[MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports)](https://support.apple.com/kb/SP755) <- macOS Monterey~~- [MacBook Air (11-inch, Early 2015)](https://support.apple.com/kb/SP713) <- macOS Monterey- [MacBook Pro (Retina, 13-inch, Late 2013)](https://support.apple.com/kb/SP691) <- macOS Big Sur- [MacBook Air (13-inch, Mid 2012)](https://support.apple.com/kb/SP670) <- macOS Catalina- [MacBook Pro (13-inch, Late 2011)](https://support.apple.com/kb/SP645) <- macOS Mojave- [MacBook Pro (13-inch, Mid 2009)](https://support.apple.com/kb/SP541) <- OS X El Capitan- iBook (FireWire SE) <- Mac OS X 10.3 (Panther)
 
 ### List
 
-- [Identify your MacBook Pro model](https://support.apple.com/en-us/HT201300)
-- [Identify your MacBook Air model](https://support.apple.com/en-us/HT201862)
+- [Identify your MacBook Pro model](https://support.apple.com/HT201300)
+- [Identify your MacBook Air model](https://support.apple.com/HT201862)
 
 
 ## Desktop
@@ -20,18 +22,19 @@
 
 ### List
 
-- [Identify your Mac Pro model](https://support.apple.com/en-us/HT202888)
-- [Identify your iMac model](https://support.apple.com/en-us/HT201634)- [Identify your Mac mini model](https://support.apple.com/en-us/HT201894)
+- [Identify your Mac Pro model](https://support.apple.com/HT202888)
+- [Identify your iMac model](https://support.apple.com/HT201634)- [Identify your Mac mini model](https://support.apple.com/HT201894)
 
 
 ## iPads
 
-- [iPad Air (5th generation)](https://support.apple.com/kb/SP866) (iPad13,16) <- iPadOS 18.5
+- [iPad Air 11-inch (M3)](https://support.apple.com/122241) (iPad15,3) <- iPadOS 26 Beta 2
+- ~~[iPad Air (5th generation)](https://support.apple.com/kb/SP866) (iPad13,16) <- iPadOS 18.5~~
 - ~~[iPad mini (6th generation)](https://support.apple.com/kb/SP850) (iPad14,2) <- iPadOS 26 Beta~~
 - ~~[iPad Air (4th generation)](https://support.apple.com/kb/SP828) (iPad13,1) <- iPadOS 18 Beta 4~~
 - ~~[iPad Pro (9.7-inch)](https://support.apple.com/kb/SP739) (iPad6,4) <- iPadOS 16.6~~
 - ~~[iPad mini 3](https://support.apple.com/kb/SP709) (iPad4,7) <- iPadOS 12.5.5~~
-- [iPad Air](https://support.apple.com/kb/SP692) (iPad4,1) <- iPadOS 12.5.7
+- [iPad Air](https://support.apple.com/kb/SP692) (iPad4,1) <- iPadOS 12.5.8
 - [iPad (3rd generation)](https://support.apple.com/kb/SP647) (iPad3,1) <- iOS 9.3.5
 - [iPad mini](https://support.apple.com/kb/SP661) (iPad2,5) <- iOS 9.3.5
 - [iPad 2](https://support.apple.com/kb/sp622) (iPad2,1) <- iOS 6.1.3
@@ -39,4 +42,4 @@
 
 ### List
 
-- [Identify your iPad model](https://support.apple.com/en-us/HT201471)
+- [Identify your iPad model](https://support.apple.com/HT201471)
