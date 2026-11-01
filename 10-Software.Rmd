@@ -15,6 +15,7 @@ macOSで有益なソフトウェアのリストです。
   + [Discord](https://discord.com/)
   + [Dropbox](https://www.dropbox.com/)
     - [Dropboxインストーラーの直リン](https://www.dropbox.com/downloading?type=full)
+    - [Dropboxインストーラーの直リン](https://www.dropbox.com/downloading?arch=arm64&type=full)
   + [EBMac](http://www31.ocn.ne.jp/~h_ishida/MacOS/Mac.html)
   + ~~[FileMaker Pro](http://www.filemaker.co.jp/products/filemaker.html)~~
   + [Gestimer 2](https://apps.apple.com/jp/app/gestimer-2/id6447125648)
@@ -22,9 +23,10 @@ macOSで有益なソフトウェアのリストです。
   + [Google Earth](http://www.google.co.jp/intl/ja/earth/)
   + [HandBrake](https://handbrake.fr/)
   + [Homebrew](https://brew.sh/)
-  + [Ice](https://github.com/jordanbaird/Ice)
-    - [Bartender](https://www.macbartender.com/) の代替
-    - [Hidden Bar](https://apps.apple.com/jp/app/hidden-bar/id1452453066) の代替
+  + [Thaw](https://github.com/thaw-app/Thaw)
+    + [Ice](https://github.com/jordanbaird/Ice) の代替
+      - [Bartender](https://www.macbartender.com/) の代替
+      - [Hidden Bar](https://apps.apple.com/jp/app/hidden-bar/id1452453066) の代替
   + [Little Snitch](https://www.obdev.at/products/littlesnitch/)
   + [LosslessCut](https://github.com/mifi/lossless-cut)
   + [Luna Display](https://astropad.com/product/lunadisplay/)
@@ -40,14 +42,15 @@ macOSで有益なソフトウェアのリストです。
     - [GitHub - takeshinishimura/PopClip-Extensions](https://github.com/takeshinishimura/PopClip-Extensions)
     - [GitHub - hirakujira/ChatGPT-Grammar-Check-PopClip-Extension](https://github.com/hirakujira/ChatGPT-Grammar-Check-PopClip-Extension)
   + [Positron](https://github.com/posit-dev/positron)
-  + [Pure Paste](https://sindresorhus.com/pure-paste)
+  + [Pro Mouse](https://apps.apple.com/jp/app/pro-mouse/id1505869474)
+  + ~~[Pure Paste](https://sindresorhus.com/pure-paste)~~
   + [R](https://cran.r-project.org/)
   + [RStudio](https://www.rstudio.com/)
   + [Scapple](https://apps.apple.com/jp/app/scapple/id568020055)
   + [Scrivener](https://itunes.apple.com/jp/app/scrivener/id418889511)
   + [SiteSucker](https://itunes.apple.com/jp/app/sitesucker/id442168834)
   + [TeamViewer](https://www.teamviewer.com/ja/)
-  + [TeXShop](https://pages.uoregon.edu/koch/texshop/)
+  + [TeXShop](https://pages.uoregon.edu/koch/texshop/) -> [TeXShop](https://texshop.app)
   + [TextExpander](https://textexpander.com/)
   + [Visual Studio Code](https://code.visualstudio.com/)
     - Pathを通す → [Configure the path with VS Code](https://code.visualstudio.com/docs/setup/mac#_configure-the-path-with-vs-code) 
@@ -65,7 +68,6 @@ macOSで有益なソフトウェアのリストです。
 - 開発終了したため困っている
   + ~~[HoudahGPS](https://www.houdah.com/houdahGPS/)~~
   + [SlidePilot](https://slidepilotapp.com/en/)
-  + [Pro Mouse](https://apps.apple.com/jp/app/pro-mouse/id1505869474)
 
 ## フォント {#fonts}
 
